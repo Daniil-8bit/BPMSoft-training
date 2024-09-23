@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.ChangeAccountScriptTask.Caption" Value="Создать или обновить контрагент согласно результату квалификации" />
+			<Item Name="BaseElements.ChangeContactAccount.Caption" Value="Привязать контакт к контрагенту" />
+			<Item Name="BaseElements.ChangeContactAccount.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
+			<Item Name="BaseElements.ChangeContactAccount.Parameters.DataSourceFilters.Caption" Value="Фильтры источника данных" />
+			<Item Name="BaseElements.ChangeContactAccount.Parameters.EntitySchemaUId.Caption" Value="Объект" />
+			<Item Name="BaseElements.ChangeContactAccount.Parameters.IsMatchConditions.Caption" Value="Если объект соответствует условиям" />
+			<Item Name="BaseElements.ChangeContactAccount.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeContactAccount.Parameters.RecordColumnValues.Caption" Value="Значения полей" />
+			<Item Name="BaseElements.ChangeContactScriptTask.Caption" Value="Создать или обновить контакт согласно результату квалификации" />
+			<Item Name="BaseElements.ChangeLeadIsQualificationPassedTrue.Caption" Value="Изменить данные" />
+			<Item Name="BaseElements.ChangeLeadIsQualificationPassedTrue.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
+			<Item Name="BaseElements.ChangeLeadIsQualificationPassedTrue.Parameters.DataSourceFilters.Caption" Value="Фильтры источника данных" />
+			<Item Name="BaseElements.ChangeLeadIsQualificationPassedTrue.Parameters.EntitySchemaUId.Caption" Value="Объект" />
+			<Item Name="BaseElements.ChangeLeadIsQualificationPassedTrue.Parameters.IsMatchConditions.Caption" Value="Если объект соответствует условиям" />
+			<Item Name="BaseElements.ChangeLeadIsQualificationPassedTrue.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeLeadIsQualificationPassedTrue.Parameters.RecordColumnValues.Caption" Value="Значения полей" />
+			<Item Name="BaseElements.ChangeLeadStageHandoffToSale.Caption" Value="Стадия лида - перевод в продажу" />
+			<Item Name="BaseElements.ChangeLeadStageHandoffToSale.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
+			<Item Name="BaseElements.ChangeLeadStageHandoffToSale.Parameters.DataSourceFilters.Caption" Value="Фильтры источника данных" />
+			<Item Name="BaseElements.ChangeLeadStageHandoffToSale.Parameters.EntitySchemaUId.Caption" Value="Объект" />
+			<Item Name="BaseElements.ChangeLeadStageHandoffToSale.Parameters.IsMatchConditions.Caption" Value="Если объект соответствует условиям" />
+			<Item Name="BaseElements.ChangeLeadStageHandoffToSale.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeLeadStageHandoffToSale.Parameters.RecordColumnValues.Caption" Value="Значения полей" />
+			<Item Name="BaseElements.ConditionalFlow3.Caption" Value="Да" />
+			<Item Name="BaseElements.ConditionalFlowLeadUndefined.Caption" Value="Нет" />
+			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="Условный поток 1" />
+			<Item Name="BaseElements.ExclusiveGatewayAccountConnection.Caption" Value="Привязать контакт к контрагенту?" />
+			<Item Name="BaseElements.ExclusiveGatewayIsLeadSet.Caption" Value="Лид указан?" />
+			<Item Name="BaseElements.ExclusiveGatewayIsQualificationPassed.Caption" Value="Квалификация произошла?" />
+			<Item Name="BaseElements.ExclusiveGatewayQualifiedAccount.Caption" Value="Контрагент существует?" />
+			<Item Name="BaseElements.LinkAccountToLead.Caption" Value="Привязать контрагента к Лиду" />
+			<Item Name="BaseElements.LinkAccountToLead.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
+			<Item Name="BaseElements.LinkAccountToLead.Parameters.DataSourceFilters.Caption" Value="Фильтры источника данных" />
+			<Item Name="BaseElements.LinkAccountToLead.Parameters.EntitySchemaUId.Caption" Value="Объект" />
+			<Item Name="BaseElements.LinkAccountToLead.Parameters.IsMatchConditions.Caption" Value="Если объект соответствует условиям" />
+			<Item Name="BaseElements.LinkAccountToLead.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.LinkAccountToLead.Parameters.RecordColumnValues.Caption" Value="Значения полей" />
+			<Item Name="BaseElements.LinkContactToLead.Caption" Value="Привязать контакт к Лиду" />
+			<Item Name="BaseElements.LinkContactToLead.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
+			<Item Name="BaseElements.LinkContactToLead.Parameters.DataSourceFilters.Caption" Value="Фильтры источника данных" />
+			<Item Name="BaseElements.LinkContactToLead.Parameters.EntitySchemaUId.Caption" Value="Объект" />
+			<Item Name="BaseElements.LinkContactToLead.Parameters.IsMatchConditions.Caption" Value="Если объект соответствует условиям" />
+			<Item Name="BaseElements.LinkContactToLead.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.LinkContactToLead.Parameters.RecordColumnValues.Caption" Value="Значения полей" />
+			<Item Name="BaseElements.QualifiedAccountExistsSequenceFlow.Caption" Value="Да" />
+			<Item Name="BaseElements.QualifiedContactExistsSequenceFlow.Caption" Value="Контакт существует" />
+			<Item Name="BaseElements.ReadLeadData.Caption" Value="Прочитать данные Лида" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.AggregationColumnName.Caption" Value="Имя колонки для агрегирующей функции" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.CanReadUncommitedData.Caption" Value="Выполнять &quot;грязное чтение&quot;" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.DataSourceFilters.Caption" Value="Источник данных фильтров" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.EntityColumnMetaPathes.Caption" Value="Перечень колонок для чтения" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.FunctionType.Caption" Value="Тип агрегирующей функции" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.FunctionType.DisplayValue" Value="0" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.IgnoreDisplayValues.Caption" Value="Не читать отображаемые значения колонок Справочников" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.NumberOfRecords.Caption" Value="Количество записей для чтения" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.OrderInfo.Caption" Value="Порядок сортировки колонок" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ReadSomeTopRecords.Caption" Value="Читать первые" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ResultCompositeObjectList.Caption" Value="Коллекция записей" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ResultCount.Caption" Value="Количество записей" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ResultDateTimeFunction.Caption" Value="Результат функции" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ResultEntity.Caption" Value="Первый элемент результирующей коллекции" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ResultEntityCollection.Caption" Value="Результирующая коллекция" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ResultFloatFunction.Caption" Value="Результат функции" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ResultIntegerFunction.Caption" Value="Результат функции" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ResultRowsCount.Caption" Value="Количество прочитанных записей" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ResultType.Caption" Value="Тип результата" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ResultType.DisplayValue" Value="0" />
+			<Item Name="BaseElements.ReadSystemSettings.Caption" Value="Прочитать системные настройки" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.AggregationColumnName.Caption" Value="Имя колонки для агрегирующей функции" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.CanReadUncommitedData.Caption" Value="Выполнять &quot;грязное чтение&quot;" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.DataSourceFilters.Caption" Value="Источник данных фильтров" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.EntityColumnMetaPathes.Caption" Value="Перечень колонок для чтения" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.FunctionType.Caption" Value="Тип агрегирующей функции" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.FunctionType.DisplayValue" Value="0" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.IgnoreDisplayValues.Caption" Value="Не читать отображаемые значения колонок Справочников" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.NumberOfRecords.Caption" Value="Количество записей для чтения" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.OrderInfo.Caption" Value="Порядок сортировки колонок" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ReadSomeTopRecords.Caption" Value="Читать первые" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ResultCompositeObjectList.Caption" Value="Коллекция записей" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ResultCount.Caption" Value="Количество записей" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ResultDateTimeFunction.Caption" Value="Результат функции" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ResultEntity.Caption" Value="Первый элемент результирующей коллекции" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ResultEntityCollection.Caption" Value="Результирующая коллекция" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ResultFloatFunction.Caption" Value="Результат функции" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ResultIntegerFunction.Caption" Value="Результат функции" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ResultRowsCount.Caption" Value="Количество прочитанных записей" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ResultType.Caption" Value="Тип результата" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ResultType.DisplayValue" Value="0" />
+			<Item Name="BaseElements.TerminateQualified.Caption" Value="Лид квалифицирован" />
+			<Item Name="Caption" Value="Квалификация лида 2.0.0" />
+			<Item Name="LaneSets.LeadQualificationProcess.Caption" Value="Процесс квалификации Лида 1.0.0" />
+			<Item Name="LaneSets.LeadQualificationProcess.Lanes.LeadQualification.Caption" Value="Квалификация Лида 1.0.0" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#[PropertyValue:Caption]#]" />
+			<Item Name="Parameters.AccountId.Caption" Value="Квалифицирован как контрагент" />
+			<Item Name="Parameters.ContactId.Caption" Value="Квалифицирован как контакт" />
+			<Item Name="Parameters.CreateAccountOnQualification.Caption" Value="Создать нового контрагента при квалификации Лида" />
+			<Item Name="Parameters.CreateAccountOnQualification.DisplayValue" Value="[#Прочитать системные настройки.Первый элемент результирующей коллекции.Логическое значение#]" />
+			<Item Name="Parameters.LeadAccountCategory.Caption" Value="LeadAccountCategory" />
+			<Item Name="Parameters.LeadAccountCategory.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Категория#]" />
+			<Item Name="Parameters.LeadAccountId.Caption" Value="LeadAccountId" />
+			<Item Name="Parameters.LeadAccountId.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Контрагент#]" />
+			<Item Name="Parameters.LeadAccountInn.Caption" Value="LeadAccountInn" />
+			<Item Name="Parameters.LeadAccountInn.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.ИНН#]" />
+			<Item Name="Parameters.LeadAccountName.Caption" Value="LeadAccountName" />
+			<Item Name="Parameters.LeadAccountName.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Название контрагента#]" />
+			<Item Name="Parameters.LeadAddress.Caption" Value="LeadAddress" />
+			<Item Name="Parameters.LeadAddress.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Адрес#]" />
+			<Item Name="Parameters.LeadAddressType.Caption" Value="LeadAddressType" />
+			<Item Name="Parameters.LeadAddressType.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Тип адреса#]" />
+			<Item Name="Parameters.LeadAnnualRevenue.Caption" Value="LeadAnnualRevenue" />
+			<Item Name="Parameters.LeadAnnualRevenue.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Годовой оборот#]" />
+			<Item Name="Parameters.LeadBusinessPhone.Caption" Value="LeadBusinessPhone" />
+			<Item Name="Parameters.LeadBusinessPhone.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Рабочий телефон#]" />
+			<Item Name="Parameters.LeadCity.Caption" Value="LeadCity" />
+			<Item Name="Parameters.LeadCity.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Город#]" />
+			<Item Name="Parameters.LeadContactId.Caption" Value="LeadContactId" />
+			<Item Name="Parameters.LeadContactId.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Контакт#]" />
+			<Item Name="Parameters.LeadContactName.Caption" Value="LeadContactName" />
+			<Item Name="Parameters.LeadContactName.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.ФИО контакта#]" />
+			<Item Name="Parameters.LeadCountry.Caption" Value="LeadCountry" />
+			<Item Name="Parameters.LeadCountry.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Страна#]" />
+			<Item Name="Parameters.LeadDear.Caption" Value="LeadDear" />
+			<Item Name="Parameters.LeadDear.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Приветствие#]" />
+			<Item Name="Parameters.LeadDecisionRole.Caption" Value="LeadDecisionRole" />
+			<Item Name="Parameters.LeadDecisionRole.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Роль#]" />
+			<Item Name="Parameters.LeadDepartment.Caption" Value="LeadDepartment" />
+			<Item Name="Parameters.LeadDepartment.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Департамент#]" />
+			<Item Name="Parameters.LeadEmail.Caption" Value="LeadEmail" />
+			<Item Name="Parameters.LeadEmail.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Email#]" />
+			<Item Name="Parameters.LeadEmployeesNumber.Caption" Value="LeadEmployeesNumber" />
+			<Item Name="Parameters.LeadEmployeesNumber.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Количество сотрудников#]" />
+			<Item Name="Parameters.LeadFax.Caption" Value="LeadFax" />
+			<Item Name="Parameters.LeadFax.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Факс#]" />
+			<Item Name="Parameters.LeadFullJobTitle.Caption" Value="LeadFullJobTitle" />
+			<Item Name="Parameters.LeadFullJobTitle.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Полное название должности#]" />
+			<Item Name="Parameters.LeadGender.Caption" Value="LeadGender" />
+			<Item Name="Parameters.LeadGender.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Пол#]" />
+			<Item Name="Parameters.LeadId.Caption" Value="Lead" />
+			<Item Name="Parameters.LeadIndustry.Caption" Value="LeadIndustry" />
+			<Item Name="Parameters.LeadIndustry.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Отрасль#]" />
+			<Item Name="Parameters.LeadJob.Caption" Value="LeadJob" />
+			<Item Name="Parameters.LeadJob.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Должность#]" />
+			<Item Name="Parameters.LeadMobilePhone.Caption" Value="LeadMobilePhone" />
+			<Item Name="Parameters.LeadMobilePhone.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Мобильный телефон#]" />
+			<Item Name="Parameters.LeadOwner.Caption" Value="LeadOwner" />
+			<Item Name="Parameters.LeadOwner.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Ответственный#]" />
+			<Item Name="Parameters.LeadOwnership.Caption" Value="LeadOwnership" />
+			<Item Name="Parameters.LeadOwnership.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Форма собственности#]" />
+			<Item Name="Parameters.LeadQualificationPassed.Caption" Value="LeadQualificationPassed" />
+			<Item Name="Parameters.LeadQualificationPassed.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Квалификация пройдена#]" />
+			<Item Name="Parameters.LeadRegion.Caption" Value="LeadRegion" />
+			<Item Name="Parameters.LeadRegion.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Область/штат#]" />
+			<Item Name="Parameters.LeadSalutation.Caption" Value="LeadSalutation" />
+			<Item Name="Parameters.LeadSalutation.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Обращение#]" />
+			<Item Name="Parameters.LeadWebsite.Caption" Value="LeadWebsite" />
+			<Item Name="Parameters.LeadWebsite.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Web#]" />
+			<Item Name="Parameters.LeadZip.Caption" Value="LeadZip" />
+			<Item Name="Parameters.LeadZip.DisplayValue" Value="[#Прочитать данные Лида.Первый элемент результирующей коллекции.Индекс#]" />
+		</Items>
+	</Group>
+</Resources>

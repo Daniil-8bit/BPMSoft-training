@@ -1,0 +1,16 @@
+﻿{
+  "Descriptor": {
+    "UId": "7f873c69-75d0-3b05-4676-0b49d1679266",
+    "Name": "DanshinDevPackage",
+    "BPMSoftVersion": "1.4.1",
+    "ModifiedOnUtc": "\/Date(1726065696000)\/",
+    "Maintainer": "DanshinDaniil",
+    "DependsOn": [
+      {
+        "UId": "3f299622-2079-4a62-ba18-6d32c1d0d6af",
+        "PackageVersion": "7.8.0",
+        "Name": "SalesEnterprise_Marketing_ServiceEnt"
+      }
+    ]
+  }
+}

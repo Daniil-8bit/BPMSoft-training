@@ -1,0 +1,10 @@
+/etc/dev_dan_bpmsoft/BPMSoft.Configuration/Pkg/OpenIdAuth/Files/Bin/netstandard/OpenIdAuth.deps.json
+/etc/dev_dan_bpmsoft/BPMSoft.Configuration/Pkg/OpenIdAuth/Files/Bin/netstandard/OpenIdAuth.dll
+/etc/dev_dan_bpmsoft/BPMSoft.Configuration/Pkg/OpenIdAuth/Files/Bin/netstandard/OpenIdAuth.pdb
+/etc/dev_dan_bpmsoft/BPMSoft.Configuration/Pkg/OpenIdAuth/Files/obj/Release/OpenIdAuth.csproj.AssemblyReference.cache
+/etc/dev_dan_bpmsoft/BPMSoft.Configuration/Pkg/OpenIdAuth/Files/obj/Release/OpenIdAuth.GeneratedMSBuildEditorConfig.editorconfig
+/etc/dev_dan_bpmsoft/BPMSoft.Configuration/Pkg/OpenIdAuth/Files/obj/Release/OpenIdAuth.AssemblyInfoInputs.cache
+/etc/dev_dan_bpmsoft/BPMSoft.Configuration/Pkg/OpenIdAuth/Files/obj/Release/OpenIdAuth.AssemblyInfo.cs
+/etc/dev_dan_bpmsoft/BPMSoft.Configuration/Pkg/OpenIdAuth/Files/obj/Release/OpenIdAuth.csproj.CoreCompileInputs.cache
+/etc/dev_dan_bpmsoft/BPMSoft.Configuration/Pkg/OpenIdAuth/Files/obj/Release/OpenIdAuth.dll
+/etc/dev_dan_bpmsoft/BPMSoft.Configuration/Pkg/OpenIdAuth/Files/obj/Release/OpenIdAuth.pdb

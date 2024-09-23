@@ -1,0 +1,3122 @@
+{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ProcessSchemaManager",
+      "UId": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+      "A2": "DanLeadManagementQualificationINNCheck",
+      "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+      "B1": [],
+      "B2": [],
+      "B3": [
+        {
+          "UId": "3c6ecdc6-bc79-4245-a9cc-a34cb13e3cc3",
+          "A2": "BPMSoft.Configuration",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "GF1": "null"
+        },
+        {
+          "UId": "44f94bf0-4527-4bb4-ac7e-a66ed2ff2653",
+          "A2": "System.Linq",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "GF1": "null"
+        },
+        {
+          "UId": "86b4ee06-6bcf-45c0-ab44-66865e38fa0d",
+          "A2": "System.Data",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "GF1": "null"
+        }
+      ],
+      "B6": "7f873c69-75d0-3b05-4676-0b49d1679266",
+      "B8": "1.4.1.2",
+      "FJ1": [
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "7da3d394-c5b2-4fba-be47-747a00d3685e",
+          "A2": "LeadId",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS2": "",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          },
+          "L9": "41af89e9-750b-4ebb-8cac-ff39b64841ec",
+          "L16": "Lead"
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "adff468f-5785-4238-a962-2d46a6df9207",
+          "A2": "AccountId",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS2": "",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          },
+          "L9": "25d7c1ab-1de0-4501-b402-02e0e5a72d6e",
+          "L16": "Account"
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "21f03e5d-1b78-48dc-9e30-1c86f9161488",
+          "A2": "ContactId",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS2": "",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          },
+          "L9": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+          "L16": "Contact"
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "2365f649-230d-4d6e-b38b-15932b94c2d9",
+          "A2": "LeadAddressType",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{66852a75-b22e-4390-a8df-49814cdb0131}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          },
+          "L9": "50837bfc-43ff-466b-94bb-de0847eecd1b",
+          "L16": "AddressType"
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "a00b4828-9039-473d-9786-1042a8a4d495",
+          "A2": "LeadCity",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{4258b690-fe71-4b7a-8278-f0a7b9dd4780}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "b9c2234b-9f29-4b4b-bff9-43ed0aee7fd4",
+          "A2": "LeadZip",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "c0f04627-4620-4bc0-84e5-9419dc8516b1",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{e1f35c38-67f2-4da3-a3f6-d4294aada246}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "b120b526-724c-470e-9bde-cca7c5bce38b",
+          "A2": "LeadRegion",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{dce30e38-3b37-40b3-b9f5-08b790d93420}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "7f25c2c6-3a0b-430a-b8f4-14dac4a33300",
+          "A2": "LeadCountry",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{d79b4d09-4791-4993-952b-e097088b55c6}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "7573b5d0-d90d-43fb-a4ff-b434212f304d",
+          "A2": "LeadWebsite",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "c0f04627-4620-4bc0-84e5-9419dc8516b1",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{e753916c-14d1-4213-bb77-9334d5e6bf7f}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "ef248d37-29b4-41f3-ae05-29aa2ca78c1e",
+          "A2": "LeadFax",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "c0f04627-4620-4bc0-84e5-9419dc8516b1",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{75485248-dedd-4fa5-ace4-787e2d097627}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "237e51db-51d4-40d3-ba2e-657d419fe693",
+          "A2": "LeadBusinessPhone",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "c0f04627-4620-4bc0-84e5-9419dc8516b1",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{94a3a853-08cb-485f-89f4-182878a5aaeb}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "6547686a-48b1-457a-810e-01431f20fcf7",
+          "A2": "LeadEmail",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "c0f04627-4620-4bc0-84e5-9419dc8516b1",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{fee32d81-7e24-4a34-91c7-3083e4d4938f}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "f609b031-6cfd-4dbc-9110-5a3c4aaf1d59",
+          "A2": "LeadMobilePhone",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "c0f04627-4620-4bc0-84e5-9419dc8516b1",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{40fef1d9-f9d9-4246-a90f-389e256aacd4}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "7d3339ff-d4dd-47f4-aad0-f962a3c06682",
+          "A2": "LeadDecisionRole",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{4a577f44-6cf7-40d0-b1f8-81c2cf6539d1}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "26e960a5-407f-49ef-9aeb-194c10c5c07a",
+          "A2": "LeadGender",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{257a1321-f45d-4868-bf44-e9f2297661d3}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "8ad4103a-0d1e-4f62-a22a-707a1d45a404",
+          "A2": "LeadDepartment",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{c7fb190e-51d8-4c65-a5db-c3714d3b0af7}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "a0f4b101-277c-452d-94c8-b44202a3a196",
+          "A2": "LeadJob",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{aa8c19b4-a8fb-4284-b969-8f15630a25ec}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "f34298ea-de28-49a3-a7dd-0537e9d81810",
+          "A2": "LeadSalutation",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "23018567-a13c-4320-8687-fd6f9e3699bd",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{afdaca14-10c0-4767-b1f4-ed06946d37eb}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "61ebe384-47c3-41a5-8f7a-689cc754debd",
+          "A2": "LeadDear",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "c0f04627-4620-4bc0-84e5-9419dc8516b1",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{ee7282d6-232b-449f-bf7b-1bd2e1f36a58}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "69d73113-cfb5-46b5-bad8-db01b0089ad7",
+          "A2": "LeadFullJobTitle",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "c0f04627-4620-4bc0-84e5-9419dc8516b1",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{4d0cc359-3e5f-481c-b8aa-117ca6b24c06}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "9ccf4757-79ad-4fda-8a8d-091f07d873c6",
+          "A2": "LeadContactName",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "c0f04627-4620-4bc0-84e5-9419dc8516b1",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{865eb25f-3941-423f-a4c0-c7834368a7af}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "d7cbdc44-a5b7-48dc-bbaf-a96bd83d7066",
+          "A2": "LeadAccountName",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "c0f04627-4620-4bc0-84e5-9419dc8516b1",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{85e56029-bf1f-46b8-9293-a6395e7f00f9}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "485ac59c-8ec0-45f6-b314-99549ce9eedf",
+          "A2": "LeadAnnualRevenue",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{718683e1-7d00-48d6-ad3f-c882ee2ce79f}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "81219640-87de-43de-9f88-0867fbbd7c43",
+          "A2": "LeadEmployeesNumber",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{49508aa7-fa69-4ce3-aa4d-1eeb2c9d73a5}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "347c7337-e229-470b-a321-5aa2e5a4d102",
+          "A2": "LeadAccountCategory",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{a3200694-9a9a-42a6-824f-870d5b03e255}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "7ab43aa0-0265-44da-baf7-13ae2e552bfe",
+          "A2": "LeadIndustry",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{2edaf1d4-f64e-4351-aa6b-c81a7ebfc108}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "5b328e21-1e24-46e8-a579-71076a3c942a",
+          "A2": "LeadOwnership",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{6a7045c5-ab82-4bf9-a929-9ac065c69343}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "ae489f7c-9167-44af-a723-c61c0541a93a",
+          "A2": "LeadAccountId",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{32949ae4-ff13-48f5-9f5d-45a74558ea55}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "f302fbc3-0ce9-4626-9957-2cf93197d6fd",
+          "A2": "LeadContactId",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{ad490d58-054a-4d85-9246-dd8466eb3983}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "c945f2af-1eae-4ba3-a433-a8ea8b69d8b1",
+          "A2": "LeadAddress",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "c0f04627-4620-4bc0-84e5-9419dc8516b1",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{76b846c6-6af5-40c2-9576-5c5dbc0d6200}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "70ebb313-bd3c-472f-bf4f-f07a23506a9c",
+          "A2": "CreateAccountOnQualification",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "90b65bf8-0ffc-4141-8779-2420877af907",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{a188ff27-c185-4b79-b24c-71503e5df1a6}].[Parameter:{411b2f2b-abb2-49c4-b63c-c589bc81bb8c}].[EntityColumn:{297f4697-d071-4be2-8509-9090c07dfe18}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "9c638b0f-7b13-46c3-bef4-2010a78fb3a4",
+          "A2": "LeadQualificationPassed",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "90b65bf8-0ffc-4141-8779-2420877af907",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{d46a1b66-17a7-4603-b1ce-49313701da31}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "d957170c-e768-44a5-a025-d5d08a8f9f76",
+          "A2": "LeadOwner",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{52817348-4c01-4015-a766-cb10c7b554c8}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          },
+          "L9": "16be3651-8fe2-4159-8dd0-a803d4683dd3"
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "1a473647-ca18-4e1d-ae3d-39e800009340",
+          "A2": "LeadAccountInn",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "L1": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd",
+          "L8": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}].[EntityColumn:{c66d8827-bede-4713-a7cd-40b69548bd49}]#]",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        }
+      ],
+      "IJ1": true,
+      "IJ3": false,
+      "IJ4": false,
+      "BK8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+      "BK15": [
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "afecd758-544f-4ccf-bdd2-6efec68dcb5f",
+          "A2": "ReadDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{eb174310-4f6b-4191-b705-5ac74e8d6810}]",
+          "GT3": "eb174310-4f6b-4191-b705-5ac74e8d6810",
+          "GT5": "5d9ac9a7-7782-49ce-8990-dcb1c73832b0",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "{\"className\":\"BPMSoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"BPMSoft.FilterGroup\\\",\\\"items\\\":{\\\"e93c7cb4-d7c5-4ff7-9fac-9b85f9211a76\\\":{\\\"className\\\":\\\"BPMSoft.CompareFilter\\\",\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"BPMSoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"e93c7cb4-d7c5-4ff7-9fac-9b85f9211a76\\\",\\\"dataValueType\\\":0,\\\"leftExpressionCaption\\\":\\\"Id\\\",\\\"rightExpression\\\":{\\\"className\\\":\\\"BPMSoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"BPMSoft.Parameter\\\",\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]\\\",\\\"displayValue\\\":\\\"Lead\\\",\\\"Id\\\":\\\"8ac90f30-15af-4f35-9092-057517bfcca1\\\"}}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Lead\\\",\\\"key\\\":\\\"87068c58-3c9e-41d6-8e8b-327b2818b8ca\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"e93c7cb4-d7c5-4ff7-9fac-9b85f9211a76\\\":{\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"rightExpression\\\":{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]\\\",\\\"Id\\\":\\\"8ac90f30-15af-4f35-9092-057517bfcca1\\\"}}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Lead\\\"}\"}",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "f4a05877-854b-425d-adb9-c528f14c7043",
+          "A2": "ReadDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{2c5fddb8-7f3b-431c-a140-15c790c47997}]",
+          "GT3": "2c5fddb8-7f3b-431c-a140-15c790c47997",
+          "GT5": "643e4d6d-7ec8-49f0-842a-066a996fbe8b",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "0",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "9e623106-29af-4a1f-afde-9b84f8f6869d",
+          "A2": "ReadDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{c9715250-2f51-47c6-ae51-692c6ef09e35}]",
+          "GT3": "c9715250-2f51-47c6-ae51-692c6ef09e35",
+          "GT5": "29115add-7520-4ad4-8371-d91f537ac913",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "true",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "a42b30f1-7b33-4e14-bfbf-12ada923e0f0",
+          "A2": "ReadDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{7aa6f27f-9136-4c8a-95c8-d11d8c5dd57c}]",
+          "GT3": "7aa6f27f-9136-4c8a-95c8-d11d8c5dd57c",
+          "GT5": "f29e5660-c5ef-4d84-8331-9046c3093519",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "1",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "46a3680c-daa6-4521-8e40-d45fa651c618",
+          "A2": "ReadDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{105c3fa8-1208-4d19-bf97-40057718c52f}]",
+          "GT3": "105c3fa8-1208-4d19-bf97-40057718c52f",
+          "GT5": "94ba9876-18c1-4a68-bcef-08f7e7f0e25c",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "0",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "5e4bba54-30db-4d4d-8412-83fa6902dbfe",
+          "A2": "ReadDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{001d410e-1ab8-4cd6-bb61-83ee17b39a5b}]",
+          "GT3": "001d410e-1ab8-4cd6-bb61-83ee17b39a5b",
+          "GT5": "cb5d6d26-7e81-4cbe-8730-8b7169000d14",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {}
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "76f7c447-5949-40b0-8556-f6e3f9fe41a6",
+          "A2": "ReadDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{a1588d18-597e-4d60-95bc-bd4c78338608}]",
+          "GT3": "a1588d18-597e-4d60-95bc-bd4c78338608",
+          "GT5": "473e79e2-727e-40a7-8829-7eefc576b403",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "LeadName:1:1,Id:0:0",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "39df1e8b-14bd-469d-a378-27af9cbad172",
+          "A2": "ReadDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{724a8768-9516-4d2c-aa88-41a1bb2d5e37}]",
+          "GT3": "724a8768-9516-4d2c-aa88-41a1bb2d5e37",
+          "GT5": "e2fced10-4842-423e-ada0-523bf7ea8ad3",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "e3b56c15-e80b-489b-bafe-dccb24d426f7",
+          "A2": "ReadDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{1eb2f334-3b2d-4e66-96ae-e2c0468ec136}]",
+          "GT3": "1eb2f334-3b2d-4e66-96ae-e2c0468ec136",
+          "GT5": "2e63ea99-8125-4254-88bd-20d3610bd471",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS2": ""
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "462b79cb-732b-414d-a9e5-d339bab6ea72",
+          "A2": "ReadDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{02e6f3dc-c3b7-48c5-b1bb-858d7d4b6706}]",
+          "GT3": "02e6f3dc-c3b7-48c5-b1bb-858d7d4b6706",
+          "GT5": "a3660fce-a8f9-4a68-a3c1-b4f2f7983635",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS2": ""
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "51e27152-ee78-4adc-8383-b5d5a41fe7ad",
+          "A2": "ReadDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{552d4238-195d-4289-9c82-72b9a2a6cc13}]",
+          "GT3": "552d4238-195d-4289-9c82-72b9a2a6cc13",
+          "GT5": "9a594933-75da-4304-b6a3-5945dba159e3",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS2": ""
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "b7df4c60-d1ce-44b7-ae6f-b5119279ea0c",
+          "A2": "ReadDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{2ee6855b-3c07-41fe-9ed9-dce8afc87598}]",
+          "GT3": "2ee6855b-3c07-41fe-9ed9-dce8afc87598",
+          "GT5": "11fb235f-c06a-4111-84cd-a5dbf9a440d5",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS2": ""
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "11188b0c-628f-4417-96d4-199cb0cd5332",
+          "A2": "ReadDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{d8c1e15f-029b-46de-8fb1-c9ab4e292106}]",
+          "GT3": "d8c1e15f-029b-46de-8fb1-c9ab4e292106",
+          "GT5": "78252e95-b759-416a-9c48-c128fbdf59ef",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS2": ""
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "7d95c2ab-7cbb-42c2-a64b-eef8805022c5",
+          "A2": "ReadDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{30fc9f29-8bc3-4e4c-8238-8d93757cf810}]",
+          "GT3": "30fc9f29-8bc3-4e4c-8238-8d93757cf810",
+          "GT5": "2f797429-6f43-4594-96bb-62fbc7b7deec",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "False",
+            "GS5": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "177e38a2-79f1-4768-bc7d-0d299fe5aa47",
+          "A2": "ReadDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{2ab23a86-7cff-4fa0-b600-4001d8b72aca}]",
+          "GT3": "2ab23a86-7cff-4fa0-b600-4001d8b72aca",
+          "GT5": "be4a0d16-6a15-41cf-ac44-a8b757565428",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS1": 1,
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "c3cb7df4-84d6-4094-b563-258f00049bc0",
+          "A2": "ReadDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{fd8b3b5a-0afb-4d72-b51c-4907de28ec37}]",
+          "GT3": "fd8b3b5a-0afb-4d72-b51c-4907de28ec37",
+          "GT5": "cc12005f-f434-4a40-b9d0-dc8f81755545",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "fa26bc8f-d712-4ffc-90c4-1f94ff2624a3",
+          "A2": "ReadDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{6d962028-129a-453e-8ba9-f69a2f78e60c}]",
+          "GT3": "6d962028-129a-453e-8ba9-f69a2f78e60c",
+          "GT5": "6dada847-859b-4e0a-9297-b3c9572530b6",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS2": ""
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "321ffee3-37f4-4bfb-944d-083389bdb169",
+          "A2": "ChangeDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{304c2e1a-af0b-4016-a95f-ee471f292c6e}].[Parameter:{ea29a1a7-83b3-4850-9134-d716cf498910}]",
+          "GT3": "ea29a1a7-83b3-4850-9134-d716cf498910",
+          "GT5": "bd2cf1ae-bbc6-4d91-8d6e-c6b40f057e95",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "92ef919d-37e7-4109-bea4-ab14c1d57d94",
+          "A2": "ChangeDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{304c2e1a-af0b-4016-a95f-ee471f292c6e}].[Parameter:{2a3f5cb3-7035-42b2-9882-c80f7985168f}]",
+          "GT3": "2a3f5cb3-7035-42b2-9882-c80f7985168f",
+          "GT5": "d6c84ba1-b6ca-4952-b517-880f22e21fdc",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "true",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "54ec7f13-6a6b-41cc-9005-b1635be94762",
+          "A2": "ChangeDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{304c2e1a-af0b-4016-a95f-ee471f292c6e}].[Parameter:{0d8e007f-f368-46a3-840e-c8c133b97854}]",
+          "GT3": "0d8e007f-f368-46a3-840e-c8c133b97854",
+          "GT5": "03166c4b-2e15-4768-a343-750c16b69691",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "{\"className\":\"BPMSoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"BPMSoft.FilterGroup\\\",\\\"items\\\":{\\\"f6d2db9a-08b6-4c4f-aa4c-fb24bacccf87\\\":{\\\"className\\\":\\\"BPMSoft.CompareFilter\\\",\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"BPMSoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"f6d2db9a-08b6-4c4f-aa4c-fb24bacccf87\\\",\\\"dataValueType\\\":0,\\\"leftExpressionCaption\\\":\\\"Id\\\",\\\"rightExpression\\\":{\\\"className\\\":\\\"BPMSoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"BPMSoft.Parameter\\\",\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{21f03e5d-1b78-48dc-9e30-1c86f9161488}]\\\",\\\"displayValue\\\":\\\"Qualified as contact\\\",\\\"Id\\\":\\\"1d6ee32b-4543-4f02-80e2-f4517c89f805\\\"}}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Contact\\\",\\\"key\\\":\\\"85bf4f92-f11e-443a-b09f-df7b1af94b37\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"f6d2db9a-08b6-4c4f-aa4c-fb24bacccf87\\\":{\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"rightExpression\\\":{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{21f03e5d-1b78-48dc-9e30-1c86f9161488}]\\\",\\\"Id\\\":\\\"1d6ee32b-4543-4f02-80e2-f4517c89f805\\\"}}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Contact\\\"}\"}",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "d143723c-27c1-4717-a642-f5d325eb7df3",
+          "A2": "ChangeDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{304c2e1a-af0b-4016-a95f-ee471f292c6e}].[Parameter:{c0fe375b-e8e3-406d-b4a8-8783f94f8903}]",
+          "GT3": "c0fe375b-e8e3-406d-b4a8-8783f94f8903",
+          "GT5": "effa11ce-90c7-4efe-8a02-be7a659d27e9",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "{\"$type\":\"BPMSoft.Core.Process.LocalizableParameterValuesList, BPMSoft.Core\",\"$values\":[{\"ItemUId\":\"b66f670c-92c0-45bc-b0ab-19a8d1e7529d\",\"columnMetaPath\":{\"value\":\"5c6ca10e-1180-4c1e-8a50-55a72ff9bdd4\"},\"schemaUId\":{\"value\":\"16be3651-8fe2-4159-8dd0-a803d4683dd3\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{adff468f-5785-4238-a962-2d46a6df9207}]#]\"},\"displayValue\":{\"value\":\"[#Qualified as account#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"BPMSoft.Core.Process.ProcessSchemaParameterValue, BPMSoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"b295071f-7ea9-4e62-8d1a-919bf3732ff2\\\",\\\"ReferenceSchemaUId\\\":\\\"25d7c1ab-1de0-4501-b402-02e0e5a72d6e\\\",\\\"ResourceItemName\\\":null}\"}}]}",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "a9927e44-b48d-42ad-b6e9-7bf65e8cd51f",
+          "A2": "ChangeDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{2b2b8a21-5d60-4170-a9eb-caa404a44b84}].[Parameter:{9e34dc39-7d39-421f-8d27-92a8af9a80c6}]",
+          "GT3": "9e34dc39-7d39-421f-8d27-92a8af9a80c6",
+          "GT5": "bd2cf1ae-bbc6-4d91-8d6e-c6b40f057e95",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "41af89e9-750b-4ebb-8cac-ff39b64841ec",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "1cf60af9-473d-43fa-84cd-07c402c1a6a7",
+          "A2": "ChangeDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{2b2b8a21-5d60-4170-a9eb-caa404a44b84}].[Parameter:{bcf5b8fe-4737-4d4e-a037-b2c70a7900e8}]",
+          "GT3": "bcf5b8fe-4737-4d4e-a037-b2c70a7900e8",
+          "GT5": "d6c84ba1-b6ca-4952-b517-880f22e21fdc",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "true",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "8fb9b8e2-9bec-4ba7-b339-725c6c4347ab",
+          "A2": "ChangeDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{2b2b8a21-5d60-4170-a9eb-caa404a44b84}].[Parameter:{bb68e8f2-44a8-4731-b948-176e754a5d8b}]",
+          "GT3": "bb68e8f2-44a8-4731-b948-176e754a5d8b",
+          "GT5": "03166c4b-2e15-4768-a343-750c16b69691",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "{\"className\":\"BPMSoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"BPMSoft.FilterGroup\\\",\\\"items\\\":{\\\"749c026f-a00f-46ff-a8c5-dc35cafd0d7e\\\":{\\\"className\\\":\\\"BPMSoft.CompareFilter\\\",\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"BPMSoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"749c026f-a00f-46ff-a8c5-dc35cafd0d7e\\\",\\\"dataValueType\\\":0,\\\"leftExpressionCaption\\\":\\\"Id\\\",\\\"rightExpression\\\":{\\\"className\\\":\\\"BPMSoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"BPMSoft.Parameter\\\",\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]\\\",\\\"displayValue\\\":\\\"Lead\\\",\\\"Id\\\":\\\"f4b8e43c-3395-4c46-964b-98ab726b81d9\\\"}}}},\\\"cbfacd80-3f7b-47fb-a23a-73d7c0d74433\\\":{\\\"className\\\":\\\"BPMSoft.InFilter\\\",\\\"filterType\\\":4,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"BPMSoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"QualifyStatus\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"cbfacd80-3f7b-47fb-a23a-73d7c0d74433\\\",\\\"dataValueType\\\":10,\\\"leftExpressionCaption\\\":\\\"Lead stage\\\",\\\"referenceSchemaName\\\":\\\"QualifyStatus\\\",\\\"rightExpressions\\\":[{\\\"className\\\":\\\"BPMSoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"BPMSoft.Parameter\\\",\\\"dataValueType\\\":10,\\\"value\\\":{\\\"Id\\\":\\\"d790a45d-03ff-4ddb-9dea-8087722c582c\\\",\\\"Name\\\":\\\"Qualification\\\",\\\"value\\\":\\\"d790a45d-03ff-4ddb-9dea-8087722c582c\\\",\\\"displayValue\\\":\\\"Qualification\\\"}}}]}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Lead\\\",\\\"key\\\":\\\"272316c7-e14d-449f-8224-59222c451325\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"749c026f-a00f-46ff-a8c5-dc35cafd0d7e\\\":{\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"rightExpression\\\":{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]\\\",\\\"Id\\\":\\\"f4b8e43c-3395-4c46-964b-98ab726b81d9\\\"}}}},\\\"cbfacd80-3f7b-47fb-a23a-73d7c0d74433\\\":{\\\"filterType\\\":4,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"QualifyStatus\\\"},\\\"rightExpressions\\\":[{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":10,\\\"value\\\":\\\"d790a45d-03ff-4ddb-9dea-8087722c582c\\\"}}]}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Lead\\\"}\"}",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "e37ad0a3-d15b-41c3-9cd7-1056928315d6",
+          "A2": "ChangeDataUserTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{2b2b8a21-5d60-4170-a9eb-caa404a44b84}].[Parameter:{f994ffb6-8edf-41e3-892d-aa56db1c821b}]",
+          "GT3": "f994ffb6-8edf-41e3-892d-aa56db1c821b",
+          "GT5": "effa11ce-90c7-4efe-8a02-be7a659d27e9",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "{\"$type\":\"BPMSoft.Core.Process.LocalizableParameterValuesList, BPMSoft.Core\",\"$values\":[{\"ItemUId\":\"f8b0a93f-a69a-426f-907b-2eaebbbfe310\",\"columnMetaPath\":{\"value\":\"bc0c2d60-5a3d-4840-aa4e-c60ea776e206\"},\"schemaUId\":{\"value\":\"41af89e9-750b-4ebb-8cac-ff39b64841ec\"},\"value\":{\"value\":\"[#Lookup.22341cd1-5b33-4c40-9011-6f7693ef6e44.ceb70b3c-985f-4867-ae7c-88f9dd710688#]\"},\"displayValue\":{\"value\":\"[#Lookup.Lead stage.Handoff to sales#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"BPMSoft.Core.Process.ProcessSchemaParameterValue, BPMSoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"b295071f-7ea9-4e62-8d1a-919bf3732ff2\\\",\\\"ReferenceSchemaUId\\\":\\\"22341cd1-5b33-4c40-9011-6f7693ef6e44\\\",\\\"ResourceItemName\\\":null}\"}}]}",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "42161dfc-b112-4825-b5a5-6b88030bc78e",
+          "A2": "ChangeDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{9da5af0d-7621-41eb-8e00-f682895bb04e}].[Parameter:{6dd0bc3f-edfa-4078-87d0-79fe8307a8ab}]",
+          "GT3": "6dd0bc3f-edfa-4078-87d0-79fe8307a8ab",
+          "GT5": "bd2cf1ae-bbc6-4d91-8d6e-c6b40f057e95",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "41af89e9-750b-4ebb-8cac-ff39b64841ec",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "3458b301-6d78-45d6-8267-ab0c6936789f",
+          "A2": "ChangeDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{9da5af0d-7621-41eb-8e00-f682895bb04e}].[Parameter:{55ac08c6-ba80-4060-81f6-fb82943a2aa6}]",
+          "GT3": "55ac08c6-ba80-4060-81f6-fb82943a2aa6",
+          "GT5": "d6c84ba1-b6ca-4952-b517-880f22e21fdc",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "true",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "e5e8e632-4979-4f5a-9420-cf0450434d7e",
+          "A2": "ChangeDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{9da5af0d-7621-41eb-8e00-f682895bb04e}].[Parameter:{34908b60-ff49-4067-a7d9-fecfeba3d015}]",
+          "GT3": "34908b60-ff49-4067-a7d9-fecfeba3d015",
+          "GT5": "03166c4b-2e15-4768-a343-750c16b69691",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "{\"className\":\"BPMSoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"BPMSoft.FilterGroup\\\",\\\"items\\\":{\\\"bec936c0-f7e9-4c1e-8547-f7ea4984b173\\\":{\\\"className\\\":\\\"BPMSoft.CompareFilter\\\",\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"BPMSoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"bec936c0-f7e9-4c1e-8547-f7ea4984b173\\\",\\\"dataValueType\\\":0,\\\"leftExpressionCaption\\\":\\\"Id\\\",\\\"rightExpression\\\":{\\\"className\\\":\\\"BPMSoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"BPMSoft.Parameter\\\",\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]\\\",\\\"displayValue\\\":\\\"Lead\\\",\\\"Id\\\":\\\"97b97055-9f9f-4d82-bff0-b5fc08c00ca0\\\"}}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Lead\\\",\\\"key\\\":\\\"0af2f38b-dc65-4c71-84d5-bd9e0966cb8b\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"bec936c0-f7e9-4c1e-8547-f7ea4984b173\\\":{\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"rightExpression\\\":{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]\\\",\\\"Id\\\":\\\"97b97055-9f9f-4d82-bff0-b5fc08c00ca0\\\"}}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Lead\\\"}\"}",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "124faf75-5fc4-4c5a-ac2f-c8493f182d92",
+          "A2": "ChangeDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{9da5af0d-7621-41eb-8e00-f682895bb04e}].[Parameter:{ee931748-590a-41b4-8229-e4dc1c8b23af}]",
+          "GT3": "ee931748-590a-41b4-8229-e4dc1c8b23af",
+          "GT5": "effa11ce-90c7-4efe-8a02-be7a659d27e9",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "{\"$type\":\"BPMSoft.Core.Process.LocalizableParameterValuesList, BPMSoft.Core\",\"$values\":[{\"ItemUId\":\"0defaf7f-df69-4043-8284-dca3617928d2\",\"columnMetaPath\":{\"value\":\"ad490d58-054a-4d85-9246-dd8466eb3983\"},\"schemaUId\":{\"value\":\"41af89e9-750b-4ebb-8cac-ff39b64841ec\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{21f03e5d-1b78-48dc-9e30-1c86f9161488}]#]\"},\"displayValue\":{\"value\":\"[#Qualified as contact#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"BPMSoft.Core.Process.ProcessSchemaParameterValue, BPMSoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"b295071f-7ea9-4e62-8d1a-919bf3732ff2\\\",\\\"ReferenceSchemaUId\\\":\\\"16be3651-8fe2-4159-8dd0-a803d4683dd3\\\",\\\"ResourceItemName\\\":null}\"}}]}",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "1871b5e5-db23-48a2-8ad8-976a4f33b11b",
+          "A2": "ChangeDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{1337590d-7ee1-488b-b0db-de061f6759f5}].[Parameter:{7b3e0e2a-6d32-492c-9290-46e7c194da0b}]",
+          "GT3": "7b3e0e2a-6d32-492c-9290-46e7c194da0b",
+          "GT5": "bd2cf1ae-bbc6-4d91-8d6e-c6b40f057e95",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "41af89e9-750b-4ebb-8cac-ff39b64841ec",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "81c25967-8d0a-4e05-940b-4e9f373ff34f",
+          "A2": "ChangeDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{1337590d-7ee1-488b-b0db-de061f6759f5}].[Parameter:{fbd3778b-b29e-4da4-878c-479ce66f6695}]",
+          "GT3": "fbd3778b-b29e-4da4-878c-479ce66f6695",
+          "GT5": "d6c84ba1-b6ca-4952-b517-880f22e21fdc",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "true",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "44c9477e-4866-46ce-a9a3-7fca16c863a0",
+          "A2": "ChangeDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{1337590d-7ee1-488b-b0db-de061f6759f5}].[Parameter:{e2572aab-9833-4451-bac3-3c93b4938008}]",
+          "GT3": "e2572aab-9833-4451-bac3-3c93b4938008",
+          "GT5": "03166c4b-2e15-4768-a343-750c16b69691",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "{\"className\":\"BPMSoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"BPMSoft.FilterGroup\\\",\\\"items\\\":{\\\"5bf26037-276c-4d59-b5f6-c7f2ecb2c5a5\\\":{\\\"className\\\":\\\"BPMSoft.CompareFilter\\\",\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"BPMSoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"5bf26037-276c-4d59-b5f6-c7f2ecb2c5a5\\\",\\\"dataValueType\\\":0,\\\"leftExpressionCaption\\\":\\\"Id\\\",\\\"rightExpression\\\":{\\\"className\\\":\\\"BPMSoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"BPMSoft.Parameter\\\",\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]\\\",\\\"displayValue\\\":\\\"Lead\\\",\\\"Id\\\":\\\"1a00f8ec-0b19-4877-8724-54c338ea29ed\\\"}}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Lead\\\",\\\"key\\\":\\\"018dbabf-291d-4e8b-bf8c-96f4100fbbfe\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"5bf26037-276c-4d59-b5f6-c7f2ecb2c5a5\\\":{\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"rightExpression\\\":{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]\\\",\\\"Id\\\":\\\"1a00f8ec-0b19-4877-8724-54c338ea29ed\\\"}}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Lead\\\"}\"}",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "98c30ec8-7d47-479e-b1c6-e62867d23273",
+          "A2": "ChangeDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{1337590d-7ee1-488b-b0db-de061f6759f5}].[Parameter:{2c5dda1b-35c1-410a-8a66-b8e7dbef353d}]",
+          "GT3": "2c5dda1b-35c1-410a-8a66-b8e7dbef353d",
+          "GT5": "effa11ce-90c7-4efe-8a02-be7a659d27e9",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "{\"$type\":\"BPMSoft.Core.Process.LocalizableParameterValuesList, BPMSoft.Core\",\"$values\":[{\"ItemUId\":\"21856d38-6baf-446a-abb4-97a98641bf8b\",\"columnMetaPath\":{\"value\":\"32949ae4-ff13-48f5-9f5d-45a74558ea55\"},\"schemaUId\":{\"value\":\"41af89e9-750b-4ebb-8cac-ff39b64841ec\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{adff468f-5785-4238-a962-2d46a6df9207}]#]\"},\"displayValue\":{\"value\":\"[#Qualified as account#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"BPMSoft.Core.Process.ProcessSchemaParameterValue, BPMSoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"b295071f-7ea9-4e62-8d1a-919bf3732ff2\\\",\\\"ReferenceSchemaUId\\\":\\\"25d7c1ab-1de0-4501-b402-02e0e5a72d6e\\\",\\\"ResourceItemName\\\":null}\"}}]}",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "14976766-48dd-4ad1-bf01-db99f0ad880f",
+          "A2": "ReadDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{a188ff27-c185-4b79-b24c-71503e5df1a6}].[Parameter:{5b47b7b3-1c3a-4e76-8b27-d2d1429d61ee}]",
+          "GT3": "5b47b7b3-1c3a-4e76-8b27-d2d1429d61ee",
+          "GT5": "5d9ac9a7-7782-49ce-8990-dcb1c73832b0",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "{\"className\":\"BPMSoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"BPMSoft.FilterGroup\\\",\\\"items\\\":{\\\"27867255-220f-4c4c-9846-5c109d673ed4\\\":{\\\"className\\\":\\\"BPMSoft.CompareFilter\\\",\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"BPMSoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"SysSettings.Code\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"27867255-220f-4c4c-9846-5c109d673ed4\\\",\\\"dataValueType\\\":1,\\\"leftExpressionCaption\\\":\\\"System setting.Code\\\",\\\"rightExpression\\\":{\\\"className\\\":\\\"BPMSoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"BPMSoft.Parameter\\\",\\\"dataValueType\\\":27,\\\"value\\\":\\\"CreateAccountOnQualification\\\"}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"SysSettingsValue\\\",\\\"key\\\":\\\"4a64d9b9-b43b-4196-8e1a-eb874e3f01e1\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"27867255-220f-4c4c-9846-5c109d673ed4\\\":{\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"SysSettings.Code\\\"},\\\"rightExpression\\\":{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":27,\\\"value\\\":\\\"CreateAccountOnQualification\\\"}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"SysSettingsValue\\\"}\"}",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "2f87968c-069f-4361-ac77-9f5873e82d23",
+          "A2": "ReadDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{a188ff27-c185-4b79-b24c-71503e5df1a6}].[Parameter:{055337fb-4c12-4162-baa0-f0a6f82b04f1}]",
+          "GT3": "055337fb-4c12-4162-baa0-f0a6f82b04f1",
+          "GT5": "643e4d6d-7ec8-49f0-842a-066a996fbe8b",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "0",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "98bfebfe-0474-43bb-89ee-fc2c8a73d940",
+          "A2": "ReadDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{a188ff27-c185-4b79-b24c-71503e5df1a6}].[Parameter:{61008822-6246-4cb7-94b5-d7ab2c0e761f}]",
+          "GT3": "61008822-6246-4cb7-94b5-d7ab2c0e761f",
+          "GT5": "29115add-7520-4ad4-8371-d91f537ac913",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "true",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "03511d59-c2a2-45d8-b24c-184ffb897fae",
+          "A2": "ReadDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{a188ff27-c185-4b79-b24c-71503e5df1a6}].[Parameter:{a18bad05-72bd-47e8-8a76-9adc5adb727a}]",
+          "GT3": "a18bad05-72bd-47e8-8a76-9adc5adb727a",
+          "GT5": "f29e5660-c5ef-4d84-8331-9046c3093519",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "1",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "416f4621-c8b0-4efd-853f-13e12112cb1e",
+          "A2": "ReadDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{a188ff27-c185-4b79-b24c-71503e5df1a6}].[Parameter:{05ce4b0d-7adf-4370-a4da-9a578ae526a6}]",
+          "GT3": "05ce4b0d-7adf-4370-a4da-9a578ae526a6",
+          "GT5": "94ba9876-18c1-4a68-bcef-08f7e7f0e25c",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "0",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "b193222a-05d0-406f-81a4-e1cd2d2bfe02",
+          "A2": "ReadDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{a188ff27-c185-4b79-b24c-71503e5df1a6}].[Parameter:{b54c1807-d3db-417d-acc8-5ec641e8f114}]",
+          "GT3": "b54c1807-d3db-417d-acc8-5ec641e8f114",
+          "GT5": "cb5d6d26-7e81-4cbe-8730-8b7169000d14",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {}
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "8693f149-686a-496a-901f-4e78dd84e6f1",
+          "A2": "ReadDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{a188ff27-c185-4b79-b24c-71503e5df1a6}].[Parameter:{eb5b205e-4427-45cf-8b2f-e5c11ffb5d04}]",
+          "GT3": "eb5b205e-4427-45cf-8b2f-e5c11ffb5d04",
+          "GT5": "473e79e2-727e-40a7-8829-7eefc576b403",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS1": 1,
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "341407b7-121c-4ca3-8030-fd06b13dab0a",
+          "A2": "ReadDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{a188ff27-c185-4b79-b24c-71503e5df1a6}].[Parameter:{411b2f2b-abb2-49c4-b63c-c589bc81bb8c}]",
+          "GT3": "411b2f2b-abb2-49c4-b63c-c589bc81bb8c",
+          "GT5": "e2fced10-4842-423e-ada0-523bf7ea8ad3",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "e15cd811-8849-4eb5-a2fa-8df9ba01188c",
+          "A2": "ReadDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{a188ff27-c185-4b79-b24c-71503e5df1a6}].[Parameter:{0107e886-cf9e-458c-9fa5-10337b71312c}]",
+          "GT3": "0107e886-cf9e-458c-9fa5-10337b71312c",
+          "GT5": "2e63ea99-8125-4254-88bd-20d3610bd471",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS2": ""
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "0e7c1233-4858-4d21-819b-220320197c40",
+          "A2": "ReadDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{a188ff27-c185-4b79-b24c-71503e5df1a6}].[Parameter:{c92f52ed-8123-486d-ae9b-c9c0f3e785cf}]",
+          "GT3": "c92f52ed-8123-486d-ae9b-c9c0f3e785cf",
+          "GT5": "a3660fce-a8f9-4a68-a3c1-b4f2f7983635",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS2": ""
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "15318c2b-5724-48d0-b0b5-5912c834dddb",
+          "A2": "ReadDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{a188ff27-c185-4b79-b24c-71503e5df1a6}].[Parameter:{6c8845de-fd11-481f-ba54-02935c4aeb9d}]",
+          "GT3": "6c8845de-fd11-481f-ba54-02935c4aeb9d",
+          "GT5": "9a594933-75da-4304-b6a3-5945dba159e3",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS2": ""
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "7b7460b5-bf36-488c-bf02-4bbd46033ff8",
+          "A2": "ReadDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{a188ff27-c185-4b79-b24c-71503e5df1a6}].[Parameter:{63c46681-2887-41fe-8ea5-3cd9bd9e60fe}]",
+          "GT3": "63c46681-2887-41fe-8ea5-3cd9bd9e60fe",
+          "GT5": "11fb235f-c06a-4111-84cd-a5dbf9a440d5",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS2": ""
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "69b54e1d-0953-4178-a303-ffa9422f0110",
+          "A2": "ReadDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{a188ff27-c185-4b79-b24c-71503e5df1a6}].[Parameter:{f0232a3c-912e-48ab-9927-5fc33677f7ba}]",
+          "GT3": "f0232a3c-912e-48ab-9927-5fc33677f7ba",
+          "GT5": "78252e95-b759-416a-9c48-c128fbdf59ef",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS2": ""
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "ebf20464-9a76-4803-aa32-c65205799498",
+          "A2": "ReadDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{a188ff27-c185-4b79-b24c-71503e5df1a6}].[Parameter:{06e3ef5a-2fa6-49b7-bfa6-3a114e683d05}]",
+          "GT3": "06e3ef5a-2fa6-49b7-bfa6-3a114e683d05",
+          "GT5": "2f797429-6f43-4594-96bb-62fbc7b7deec",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "False",
+            "GS5": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "65aeba65-ff55-443f-8fd0-d70cb77ce4fb",
+          "A2": "ReadDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{a188ff27-c185-4b79-b24c-71503e5df1a6}].[Parameter:{0a40e220-4683-47e0-a0c2-892934668fc3}]",
+          "GT3": "0a40e220-4683-47e0-a0c2-892934668fc3",
+          "GT5": "be4a0d16-6a15-41cf-ac44-a8b757565428",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS1": 1,
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "39678ea9-e641-4fe4-b251-a908b8e4c834",
+          "A2": "ReadDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{a188ff27-c185-4b79-b24c-71503e5df1a6}].[Parameter:{44d1abb0-802b-49e6-9571-d667de498b3e}]",
+          "GT3": "44d1abb0-802b-49e6-9571-d667de498b3e",
+          "GT5": "cc12005f-f434-4a40-b9d0-dc8f81755545",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "e3c99ffe-5766-4f70-a357-c9281c76c4ac",
+          "A2": "ReadDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{a188ff27-c185-4b79-b24c-71503e5df1a6}].[Parameter:{11fe36aa-20e3-41b3-99f4-0a35fd3628cc}]",
+          "GT3": "11fe36aa-20e3-41b3-99f4-0a35fd3628cc",
+          "GT5": "6dada847-859b-4e0a-9297-b3c9572530b6",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS2": ""
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "ca77be74-5752-4484-ae67-c2eab729c9e1",
+          "A2": "ChangeDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{d5956d29-6377-467e-a94b-24cf386951b3}].[Parameter:{2585e082-21c1-4b40-97bb-421446d5072b}]",
+          "GT3": "2585e082-21c1-4b40-97bb-421446d5072b",
+          "GT5": "bd2cf1ae-bbc6-4d91-8d6e-c6b40f057e95",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "41af89e9-750b-4ebb-8cac-ff39b64841ec",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "6f7fef49-c3d6-4fb1-9fb5-3fc86e16adcc",
+          "A2": "ChangeDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{d5956d29-6377-467e-a94b-24cf386951b3}].[Parameter:{8e537058-764d-485f-976a-f2c1892e719d}]",
+          "GT3": "8e537058-764d-485f-976a-f2c1892e719d",
+          "GT5": "d6c84ba1-b6ca-4952-b517-880f22e21fdc",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 3,
+            "GS2": "true",
+            "GS5": "d3021ca7-7450-4678-a117-060171eb2976"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "4bae2c8e-a60f-4753-9191-2bfe1c65a332",
+          "A2": "ChangeDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{d5956d29-6377-467e-a94b-24cf386951b3}].[Parameter:{7fa0d07d-a96d-43f6-8700-5d9b0a159e1c}]",
+          "GT3": "7fa0d07d-a96d-43f6-8700-5d9b0a159e1c",
+          "GT5": "03166c4b-2e15-4768-a343-750c16b69691",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "{\"className\":\"BPMSoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"BPMSoft.FilterGroup\\\",\\\"items\\\":{\\\"5367489b-0a1c-442d-96e1-f8be5ab03cae\\\":{\\\"className\\\":\\\"BPMSoft.CompareFilter\\\",\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"BPMSoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"5367489b-0a1c-442d-96e1-f8be5ab03cae\\\",\\\"dataValueType\\\":0,\\\"leftExpressionCaption\\\":\\\"Id\\\",\\\"rightExpression\\\":{\\\"className\\\":\\\"BPMSoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"BPMSoft.Parameter\\\",\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]\\\",\\\"displayValue\\\":\\\"Lead\\\",\\\"Id\\\":\\\"77811003-8f02-4ac8-8d7e-cccdba839019\\\"}}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Lead\\\",\\\"key\\\":\\\"b37c8b0d-85a4-4687-a438-126d3e7ccc10\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"5367489b-0a1c-442d-96e1-f8be5ab03cae\\\":{\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"rightExpression\\\":{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]\\\",\\\"Id\\\":\\\"77811003-8f02-4ac8-8d7e-cccdba839019\\\"}}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Lead\\\"}\"}",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "7f99c6ec-fae3-4467-9bc4-47cc44b5a5a3",
+          "A2": "ChangeDataUserTask1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{d5956d29-6377-467e-a94b-24cf386951b3}].[Parameter:{95da49a7-ccce-4ad9-befc-0d569ae20247}]",
+          "GT3": "95da49a7-ccce-4ad9-befc-0d569ae20247",
+          "GT5": "effa11ce-90c7-4efe-8a02-be7a659d27e9",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 1,
+            "GS2": "{\"$type\":\"BPMSoft.Core.Process.LocalizableParameterValuesList, BPMSoft.Core\",\"$values\":[{\"ItemUId\":\"af8d8697-674f-435d-8922-58710472ecd4\",\"columnMetaPath\":{\"value\":\"d46a1b66-17a7-4603-b1ce-49313701da31\"},\"schemaUId\":{\"value\":\"41af89e9-750b-4ebb-8cac-ff39b64841ec\"},\"value\":{\"value\":\"true\"},\"displayValue\":{\"value\":\"true\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"BPMSoft.Core.Process.ProcessSchemaParameterValue, BPMSoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"90b65bf8-0ffc-4141-8779-2420877af907\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}}]}",
+            "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "dccc90e7-47a8-4a7a-b2f9-990ffb039f83",
+          "A2": "ReadLeadData",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{d2014bab-ec05-4880-9e20-25862680d97a}]",
+          "GT3": "d2014bab-ec05-4880-9e20-25862680d97a",
+          "GT5": "555901ef-f707-4803-a887-1bc07e882096",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS2": ""
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "6df3e942-0b5a-4db2-bb3c-11733179b69e",
+          "A2": "ReadLeadData",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{8bf25d2e-0f4c-4ed1-b885-635952f9e063}].[Parameter:{12c2859f-0077-4ba5-a75e-9d121e261ff2}]",
+          "GT3": "12c2859f-0077-4ba5-a75e-9d121e261ff2",
+          "GT5": "978b550e-1b81-448a-8700-9c9190c3a2a4",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS1": 3,
+            "GS2": "false",
+            "GS5": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "1c9657a7-fbd2-4c42-b7ff-821018170359",
+          "A2": "ReadSystemSettings",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{a188ff27-c185-4b79-b24c-71503e5df1a6}].[Parameter:{7b761d52-e117-4dc0-a0c4-c2846c0292bb}]",
+          "GT3": "7b761d52-e117-4dc0-a0c4-c2846c0292bb",
+          "GT5": "555901ef-f707-4803-a887-1bc07e882096",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS2": ""
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "f8cfca98-9d66-4880-840d-c1696bf11a41",
+          "A2": "ReadSystemSettings",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{a188ff27-c185-4b79-b24c-71503e5df1a6}].[Parameter:{91d86af3-634e-48c9-b566-355568110d9f}]",
+          "GT3": "91d86af3-634e-48c9-b566-355568110d9f",
+          "GT5": "978b550e-1b81-448a-8700-9c9190c3a2a4",
+          "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "GT1": {
+            "GS1": 3,
+            "GS2": "false",
+            "GS5": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "504532a0-50dd-4e3e-9b5b-91f1c8adfa49",
+          "A2": "ChangeContactAccount",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{304c2e1a-af0b-4016-a95f-ee471f292c6e}].[Parameter:{a64768d6-716f-46ef-bf62-dd4542ca31be}]",
+          "GT3": "a64768d6-716f-46ef-bf62-dd4542ca31be",
+          "GT5": "b9bc395c-1f13-d564-1257-2505f236ab7b",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 3,
+            "GS2": "true",
+            "GS5": "d3021ca7-7450-4678-a117-060171eb2976",
+            "GS8": "false"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "c86a85ba-9d71-4c52-bda0-9785348f4a9b",
+          "A2": "ChangeLeadStageHandoffToSale",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{2b2b8a21-5d60-4170-a9eb-caa404a44b84}].[Parameter:{66432cd1-a0ce-440a-9805-695d517eeaa0}]",
+          "GT3": "66432cd1-a0ce-440a-9805-695d517eeaa0",
+          "GT5": "b9bc395c-1f13-d564-1257-2505f236ab7b",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 3,
+            "GS2": "true",
+            "GS5": "d3021ca7-7450-4678-a117-060171eb2976",
+            "GS8": "false"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "1720cbfd-383e-4c16-90a8-502489edc02c",
+          "A2": "LinkContactToLead",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{9da5af0d-7621-41eb-8e00-f682895bb04e}].[Parameter:{825263e4-a53a-4fc8-95cf-74d3f539f29c}]",
+          "GT3": "825263e4-a53a-4fc8-95cf-74d3f539f29c",
+          "GT5": "b9bc395c-1f13-d564-1257-2505f236ab7b",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 3,
+            "GS2": "true",
+            "GS5": "d3021ca7-7450-4678-a117-060171eb2976",
+            "GS8": "false"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "78a8dab9-c6af-4402-a88b-0354c48be2c8",
+          "A2": "LinkAccountToLead",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{1337590d-7ee1-488b-b0db-de061f6759f5}].[Parameter:{4fbd0883-913e-4574-8a28-668399f0d064}]",
+          "GT3": "4fbd0883-913e-4574-8a28-668399f0d064",
+          "GT5": "b9bc395c-1f13-d564-1257-2505f236ab7b",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 3,
+            "GS2": "true",
+            "GS5": "d3021ca7-7450-4678-a117-060171eb2976",
+            "GS8": "false"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaMapping",
+          "UId": "07fca251-714b-4c61-8033-da06a7d089ae",
+          "A2": "ChangeLeadIsQualificationPassedTrue",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "GT2": "[Element:{d5956d29-6377-467e-a94b-24cf386951b3}].[Parameter:{57359ef5-c924-42ea-841d-db623fd1e880}]",
+          "GT3": "57359ef5-c924-42ea-841d-db623fd1e880",
+          "GT5": "b9bc395c-1f13-d564-1257-2505f236ab7b",
+          "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
+          "GT1": {
+            "GS1": 3,
+            "GS2": "true",
+            "GS5": "d3021ca7-7450-4678-a117-060171eb2976",
+            "GS8": "false"
+          }
+        }
+      ],
+      "BK37": {
+        "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+        "UId": "cdd58be7-2dba-4a5e-869b-1ad5d6d7513a",
+        "A2": "NotificationCaption",
+        "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+        "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+        "L1": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2",
+        "L8": {
+          "GS1": 3,
+          "GS2": "[#[PropertyValue:Caption]#]"
+        }
+      },
+      "BK1": "FFFFFFFF",
+      "BK2": "FFBBBBBB",
+      "BK3": [
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaLaneSet",
+          "UId": "52a0ec41-f948-487a-bbce-75440b557857",
+          "A2": "LeadQualificationProcess",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "BL3": "5;5",
+          "BL5": 1,
+          "BL6": "LaneSet",
+          "BL7": "11a47caf-a0d5-41fa-a274-a0b11f77447a",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "BM1": 0,
+          "BM4": [
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaLane",
+              "UId": "ba73ea8a-5a22-4c8b-807e-e27f1d404045",
+              "A2": "LeadQualification",
+              "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+              "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+              "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+              "IL2": "52a0ec41-f948-487a-bbce-75440b557857",
+              "BL3": "29;0",
+              "BL5": 1,
+              "BL6": "Lane",
+              "BL7": "abcd74b9-5912-414b-82ac-f1aa4dcd554e",
+              "CD1": [],
+              "CD2": [],
+              "CD4": "52a0ec41-f948-487a-bbce-75440b557857",
+              "CD7": []
+            }
+          ]
+        }
+      ],
+      "BK5": [],
+      "BK4": [
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaStartEvent",
+          "UId": "bf1b5b17-6f6d-4e3d-8136-b213854f53b7",
+          "A2": "Start1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "IL2": "ba73ea8a-5a22-4c8b-807e-e27f1d404045",
+          "BL3": "20;360",
+          "BL6": "Event",
+          "BL7": "53818048-7868-48f6-ada0-0ebaa65af628",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "BN2": "27;27",
+          "BO3": true,
+          "FC1": [],
+          "ED1": false
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaTerminateEvent",
+          "UId": "279e66a8-61fb-4e2b-8559-0362a5ebb1fe",
+          "A2": "TerminateQualified",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "IL2": "ba73ea8a-5a22-4c8b-807e-e27f1d404045",
+          "BL3": "1113;79",
+          "BL6": "Event",
+          "BL7": "1bd93619-0574-454e-bb4e-cf53b9eb9470",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "BN2": "27;27",
+          "BO3": true,
+          "FC1": []
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaExclusiveGateway",
+          "UId": "ed9cbb4d-b5c9-4231-ab67-76ffff3433b0",
+          "A2": "ExclusiveGatewayIsLeadSet",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "IL2": "ba73ea8a-5a22-4c8b-807e-e27f1d404045",
+          "BL3": "100;346",
+          "BL6": "Gateway",
+          "BL7": "bd9f7570-6c97-4f16-90e5-663a190c6c7c",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "BN2": "55;55",
+          "BO3": true,
+          "HH2": []
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaTerminateEvent",
+          "UId": "478ef5b0-3cfe-49aa-9d92-d33e5210847a",
+          "A2": "Terminate2",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "IL2": "ba73ea8a-5a22-4c8b-807e-e27f1d404045",
+          "BL3": "113;493",
+          "BL6": "Event",
+          "BL7": "1bd93619-0574-454e-bb4e-cf53b9eb9470",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "BN2": "27;27",
+          "BO3": true,
+          "FC1": []
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaUserTask",
+          "UId": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+          "A2": "ReadLeadData",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "IL2": "ba73ea8a-5a22-4c8b-807e-e27f1d404045",
+          "BL3": "236;660",
+          "BL6": "Task",
+          "BL7": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "BN2": "69;55",
+          "BO2": true,
+          "BO3": true,
+          "BP2": [
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "eb174310-4f6b-4191-b705-5ac74e8d6810",
+              "A2": "DataSourceFilters",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+              "L1": "394e160f-c8e0-46fa-9c0d-75d97e9e9169",
+              "L8": {
+                "GS1": 1,
+                "GS2": "{\"className\":\"BPMSoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"BPMSoft.FilterGroup\\\",\\\"items\\\":{\\\"e93c7cb4-d7c5-4ff7-9fac-9b85f9211a76\\\":{\\\"className\\\":\\\"BPMSoft.CompareFilter\\\",\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"BPMSoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"e93c7cb4-d7c5-4ff7-9fac-9b85f9211a76\\\",\\\"dataValueType\\\":0,\\\"leftExpressionCaption\\\":\\\"Id\\\",\\\"rightExpression\\\":{\\\"className\\\":\\\"BPMSoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"BPMSoft.Parameter\\\",\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]\\\",\\\"displayValue\\\":\\\"Lead\\\",\\\"Id\\\":\\\"8ac90f30-15af-4f35-9092-057517bfcca1\\\"}}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Lead\\\",\\\"key\\\":\\\"87068c58-3c9e-41d6-8e8b-327b2818b8ca\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"e93c7cb4-d7c5-4ff7-9fac-9b85f9211a76\\\":{\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"rightExpression\\\":{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]\\\",\\\"Id\\\":\\\"8ac90f30-15af-4f35-9092-057517bfcca1\\\"}}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Lead\\\"}\"}",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "2c5fddb8-7f3b-431c-a140-15c790c47997",
+              "A2": "ResultType",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {
+                "GS1": 1,
+                "GS2": "0",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "c9715250-2f51-47c6-ae51-692c6ef09e35",
+              "A2": "ReadSomeTopRecords",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+              "L1": "90b65bf8-0ffc-4141-8779-2420877af907",
+              "L8": {
+                "GS1": 1,
+                "GS2": "true",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "7aa6f27f-9136-4c8a-95c8-d11d8c5dd57c",
+              "A2": "NumberOfRecords",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {
+                "GS1": 1,
+                "GS2": "1",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "105c3fa8-1208-4d19-bf97-40057718c52f",
+              "A2": "FunctionType",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {
+                "GS1": 1,
+                "GS2": "0",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "001d410e-1ab8-4cd6-bb61-83ee17b39a5b",
+              "A2": "AggregationColumnName",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+              "L1": "394e160f-c8e0-46fa-9c0d-75d97e9e9169",
+              "L8": {}
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "a1588d18-597e-4d60-95bc-bd4c78338608",
+              "A2": "OrderInfo",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+              "L1": "394e160f-c8e0-46fa-9c0d-75d97e9e9169",
+              "L8": {
+                "GS1": 1,
+                "GS2": "LeadName:1:1,Id:0:0",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "724a8768-9516-4d2c-aa88-41a1bb2d5e37",
+              "A2": "ResultEntity",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+              "L1": "ebd85d37-0abf-4bbf-bb32-97dc3dffcc8c",
+              "L8": {
+                "GS1": 1,
+                "GS2": "",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              },
+              "L9": "41af89e9-750b-4ebb-8cac-ff39b64841ec",
+              "L13": true,
+              "L16": "Lead"
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "1eb2f334-3b2d-4e66-96ae-e2c0468ec136",
+              "A2": "ResultCount",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {
+                "GS2": ""
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "02e6f3dc-c3b7-48c5-b1bb-858d7d4b6706",
+              "A2": "ResultIntegerFunction",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {
+                "GS2": ""
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "552d4238-195d-4289-9c82-72b9a2a6cc13",
+              "A2": "ResultFloatFunction",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+              "L1": "ff22e049-4d16-46ee-a529-92d8808932dc",
+              "L8": {
+                "GS2": ""
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "2ee6855b-3c07-41fe-9ed9-dce8afc87598",
+              "A2": "ResultDateTimeFunction",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+              "L1": "d21e9ef4-c064-4012-b286-fa1a8171da44",
+              "L8": {
+                "GS2": ""
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "d8c1e15f-029b-46de-8fb1-c9ab4e292106",
+              "A2": "ResultRowsCount",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {
+                "GS2": ""
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "30fc9f29-8bc3-4e4c-8238-8d93757cf810",
+              "A2": "CanReadUncommitedData",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+              "L1": "90b65bf8-0ffc-4141-8779-2420877af907",
+              "L8": {
+                "GS1": 1,
+                "GS2": "False",
+                "GS5": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "2ab23a86-7cff-4fa0-b600-4001d8b72aca",
+              "A2": "ResultEntityCollection",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+              "L1": "51fb23ba-3eb2-11e2-b7d5-b0c76188709b",
+              "L8": {
+                "GS1": 1,
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              },
+              "L9": "41af89e9-750b-4ebb-8cac-ff39b64841ec",
+              "L16": "Lead"
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "fd8b3b5a-0afb-4d72-b51c-4907de28ec37",
+              "A2": "EntityColumnMetaPathes",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+              "L1": "394e160f-c8e0-46fa-9c0d-75d97e9e9169",
+              "L8": {
+                "GS2": "",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "6d962028-129a-453e-8ba9-f69a2f78e60c",
+              "A2": "IgnoreDisplayValues",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+              "L1": "90b65bf8-0ffc-4141-8779-2420877af907",
+              "L8": {
+                "GS2": ""
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "d2014bab-ec05-4880-9e20-25862680d97a",
+              "A2": "ResultCompositeObjectList",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+              "L1": "651ec16f-d140-46db-b9e2-825c985a8ac2",
+              "L8": {
+                "GS2": ""
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "12c2859f-0077-4ba5-a75e-9d121e261ff2",
+              "A2": "ConsiderTimeInFilter",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+              "L1": "90b65bf8-0ffc-4141-8779-2420877af907",
+              "L8": {
+                "GS1": 3,
+                "GS2": "false",
+                "GS5": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f"
+              }
+            }
+          ],
+          "CL2": "FFFFFFFF",
+          "J6": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f"
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaUserTask",
+          "UId": "304c2e1a-af0b-4016-a95f-ee471f292c6e",
+          "A2": "ChangeContactAccount",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "IL2": "ba73ea8a-5a22-4c8b-807e-e27f1d404045",
+          "BL3": "511;660",
+          "BL6": "Task",
+          "BL7": "d3021ca7-7450-4678-a117-060171eb2976",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "BN2": "69;55",
+          "BO3": true,
+          "BP2": [
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "ea29a1a7-83b3-4850-9134-d716cf498910",
+              "A2": "EntitySchemaUId",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "IL2": "304c2e1a-af0b-4016-a95f-ee471f292c6e",
+              "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+              "L8": {
+                "GS1": 1,
+                "GS2": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              },
+              "L9": "6c7394db-06ff-4050-91ef-8278e21dce15",
+              "L16": "SysSchema"
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "2a3f5cb3-7035-42b2-9882-c80f7985168f",
+              "A2": "IsMatchConditions",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "IL2": "304c2e1a-af0b-4016-a95f-ee471f292c6e",
+              "L1": "90b65bf8-0ffc-4141-8779-2420877af907",
+              "L8": {
+                "GS1": 1,
+                "GS2": "true",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "0d8e007f-f368-46a3-840e-c8c133b97854",
+              "A2": "DataSourceFilters",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "IL2": "304c2e1a-af0b-4016-a95f-ee471f292c6e",
+              "L1": "394e160f-c8e0-46fa-9c0d-75d97e9e9169",
+              "L8": {
+                "GS1": 1,
+                "GS2": "{\"className\":\"BPMSoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"BPMSoft.FilterGroup\\\",\\\"items\\\":{\\\"f6d2db9a-08b6-4c4f-aa4c-fb24bacccf87\\\":{\\\"className\\\":\\\"BPMSoft.CompareFilter\\\",\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"BPMSoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"f6d2db9a-08b6-4c4f-aa4c-fb24bacccf87\\\",\\\"dataValueType\\\":0,\\\"leftExpressionCaption\\\":\\\"Id\\\",\\\"rightExpression\\\":{\\\"className\\\":\\\"BPMSoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"BPMSoft.Parameter\\\",\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{21f03e5d-1b78-48dc-9e30-1c86f9161488}]\\\",\\\"displayValue\\\":\\\"Qualified as contact\\\",\\\"Id\\\":\\\"1d6ee32b-4543-4f02-80e2-f4517c89f805\\\"}}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Contact\\\",\\\"key\\\":\\\"85bf4f92-f11e-443a-b09f-df7b1af94b37\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"f6d2db9a-08b6-4c4f-aa4c-fb24bacccf87\\\":{\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"rightExpression\\\":{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{21f03e5d-1b78-48dc-9e30-1c86f9161488}]\\\",\\\"Id\\\":\\\"1d6ee32b-4543-4f02-80e2-f4517c89f805\\\"}}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Contact\\\"}\"}",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "c0fe375b-e8e3-406d-b4a8-8783f94f8903",
+              "A2": "RecordColumnValues",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "IL2": "304c2e1a-af0b-4016-a95f-ee471f292c6e",
+              "L1": "b53eaa2a-4bb7-4a6b-9f4f-58ccab293e31",
+              "L8": {
+                "GS1": 1,
+                "GS2": "{\"$type\":\"BPMSoft.Core.Process.LocalizableParameterValuesList, BPMSoft.Core\",\"$values\":[{\"ItemUId\":\"b66f670c-92c0-45bc-b0ab-19a8d1e7529d\",\"columnMetaPath\":{\"value\":\"5c6ca10e-1180-4c1e-8a50-55a72ff9bdd4\"},\"schemaUId\":{\"value\":\"16be3651-8fe2-4159-8dd0-a803d4683dd3\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{adff468f-5785-4238-a962-2d46a6df9207}]#]\"},\"displayValue\":{\"value\":\"[#Qualified as account#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"BPMSoft.Core.Process.ProcessSchemaParameterValue, BPMSoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"b295071f-7ea9-4e62-8d1a-919bf3732ff2\\\",\\\"ReferenceSchemaUId\\\":\\\"25d7c1ab-1de0-4501-b402-02e0e5a72d6e\\\",\\\"ResourceItemName\\\":null}\"}}]}",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "a64768d6-716f-46ef-bf62-dd4542ca31be",
+              "A2": "ConsiderTimeInFilter",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "IL2": "304c2e1a-af0b-4016-a95f-ee471f292c6e",
+              "L1": "90b65bf8-0ffc-4141-8779-2420877af907",
+              "L8": {
+                "GS1": 3,
+                "GS2": "false",
+                "GS5": "d3021ca7-7450-4678-a117-060171eb2976",
+                "GS8": "false"
+              }
+            }
+          ],
+          "CL2": "FFFFFFFF",
+          "J6": "d3021ca7-7450-4678-a117-060171eb2976"
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaExclusiveGateway",
+          "UId": "968e7a35-4c26-459a-806f-a3b34d7fe1c2",
+          "A2": "ExclusiveGatewayAccountConnection",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "IL2": "ba73ea8a-5a22-4c8b-807e-e27f1d404045",
+          "BL3": "518;485",
+          "BL6": "Gateway",
+          "BL7": "bd9f7570-6c97-4f16-90e5-663a190c6c7c",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "BN2": "55;55",
+          "BO3": true,
+          "HH2": []
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaUserTask",
+          "UId": "2b2b8a21-5d60-4170-a9eb-caa404a44b84",
+          "A2": "ChangeLeadStageHandoffToSale",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "IL2": "ba73ea8a-5a22-4c8b-807e-e27f1d404045",
+          "BL3": "796;65",
+          "BL6": "Task",
+          "BL7": "d3021ca7-7450-4678-a117-060171eb2976",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "BN2": "69;55",
+          "BO3": true,
+          "BP2": [
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "9e34dc39-7d39-421f-8d27-92a8af9a80c6",
+              "A2": "EntitySchemaUId",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "IL2": "2b2b8a21-5d60-4170-a9eb-caa404a44b84",
+              "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+              "L8": {
+                "GS1": 1,
+                "GS2": "41af89e9-750b-4ebb-8cac-ff39b64841ec",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              },
+              "L9": "6c7394db-06ff-4050-91ef-8278e21dce15",
+              "L16": "SysSchema"
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "bcf5b8fe-4737-4d4e-a037-b2c70a7900e8",
+              "A2": "IsMatchConditions",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "IL2": "2b2b8a21-5d60-4170-a9eb-caa404a44b84",
+              "L1": "90b65bf8-0ffc-4141-8779-2420877af907",
+              "L8": {
+                "GS1": 1,
+                "GS2": "true",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "bb68e8f2-44a8-4731-b948-176e754a5d8b",
+              "A2": "DataSourceFilters",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "IL2": "2b2b8a21-5d60-4170-a9eb-caa404a44b84",
+              "L1": "394e160f-c8e0-46fa-9c0d-75d97e9e9169",
+              "L8": {
+                "GS1": 1,
+                "GS2": "{\"className\":\"BPMSoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"BPMSoft.FilterGroup\\\",\\\"items\\\":{\\\"749c026f-a00f-46ff-a8c5-dc35cafd0d7e\\\":{\\\"className\\\":\\\"BPMSoft.CompareFilter\\\",\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"BPMSoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"749c026f-a00f-46ff-a8c5-dc35cafd0d7e\\\",\\\"dataValueType\\\":0,\\\"leftExpressionCaption\\\":\\\"Id\\\",\\\"rightExpression\\\":{\\\"className\\\":\\\"BPMSoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"BPMSoft.Parameter\\\",\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]\\\",\\\"displayValue\\\":\\\"Lead\\\",\\\"Id\\\":\\\"f4b8e43c-3395-4c46-964b-98ab726b81d9\\\"}}}},\\\"cbfacd80-3f7b-47fb-a23a-73d7c0d74433\\\":{\\\"className\\\":\\\"BPMSoft.InFilter\\\",\\\"filterType\\\":4,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"BPMSoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"QualifyStatus\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"cbfacd80-3f7b-47fb-a23a-73d7c0d74433\\\",\\\"dataValueType\\\":10,\\\"leftExpressionCaption\\\":\\\"Lead stage\\\",\\\"referenceSchemaName\\\":\\\"QualifyStatus\\\",\\\"rightExpressions\\\":[{\\\"className\\\":\\\"BPMSoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"BPMSoft.Parameter\\\",\\\"dataValueType\\\":10,\\\"value\\\":{\\\"Id\\\":\\\"d790a45d-03ff-4ddb-9dea-8087722c582c\\\",\\\"Name\\\":\\\"Qualification\\\",\\\"value\\\":\\\"d790a45d-03ff-4ddb-9dea-8087722c582c\\\",\\\"displayValue\\\":\\\"Qualification\\\"}}}]}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Lead\\\",\\\"key\\\":\\\"272316c7-e14d-449f-8224-59222c451325\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"749c026f-a00f-46ff-a8c5-dc35cafd0d7e\\\":{\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"rightExpression\\\":{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]\\\",\\\"Id\\\":\\\"f4b8e43c-3395-4c46-964b-98ab726b81d9\\\"}}}},\\\"cbfacd80-3f7b-47fb-a23a-73d7c0d74433\\\":{\\\"filterType\\\":4,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"QualifyStatus\\\"},\\\"rightExpressions\\\":[{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":10,\\\"value\\\":\\\"d790a45d-03ff-4ddb-9dea-8087722c582c\\\"}}]}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Lead\\\"}\"}",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "f994ffb6-8edf-41e3-892d-aa56db1c821b",
+              "A2": "RecordColumnValues",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "IL2": "2b2b8a21-5d60-4170-a9eb-caa404a44b84",
+              "L1": "b53eaa2a-4bb7-4a6b-9f4f-58ccab293e31",
+              "L8": {
+                "GS1": 1,
+                "GS2": "{\"$type\":\"BPMSoft.Core.Process.LocalizableParameterValuesList, BPMSoft.Core\",\"$values\":[{\"ItemUId\":\"f8b0a93f-a69a-426f-907b-2eaebbbfe310\",\"columnMetaPath\":{\"value\":\"bc0c2d60-5a3d-4840-aa4e-c60ea776e206\"},\"schemaUId\":{\"value\":\"41af89e9-750b-4ebb-8cac-ff39b64841ec\"},\"value\":{\"value\":\"[#Lookup.22341cd1-5b33-4c40-9011-6f7693ef6e44.ceb70b3c-985f-4867-ae7c-88f9dd710688#]\"},\"displayValue\":{\"value\":\"[#Lookup.Lead stage.Handoff to sales#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"BPMSoft.Core.Process.ProcessSchemaParameterValue, BPMSoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"b295071f-7ea9-4e62-8d1a-919bf3732ff2\\\",\\\"ReferenceSchemaUId\\\":\\\"22341cd1-5b33-4c40-9011-6f7693ef6e44\\\",\\\"ResourceItemName\\\":null}\"}}]}",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "66432cd1-a0ce-440a-9805-695d517eeaa0",
+              "A2": "ConsiderTimeInFilter",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "IL2": "2b2b8a21-5d60-4170-a9eb-caa404a44b84",
+              "L1": "90b65bf8-0ffc-4141-8779-2420877af907",
+              "L8": {
+                "GS1": 3,
+                "GS2": "false",
+                "GS5": "d3021ca7-7450-4678-a117-060171eb2976",
+                "GS8": "false"
+              }
+            }
+          ],
+          "CL2": "FFFFFFFF",
+          "J6": "d3021ca7-7450-4678-a117-060171eb2976"
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaScriptTask",
+          "UId": "97776b38-7f29-472a-ab13-e87884d17d43",
+          "A2": "ChangeAccountScriptTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "IL2": "ba73ea8a-5a22-4c8b-807e-e27f1d404045",
+          "BL3": "19;-137",
+          "BL6": "Task",
+          "BL7": "0e490dda-e140-4441-b600-6f5c64d024df",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "BN2": "69;55",
+          "BO3": true,
+          "BP2": [],
+          "CL2": "FFFFFFFF",
+          "CH1": "ProcessAccount();\r\nreturn true;"
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaScriptTask",
+          "UId": "9970214a-b543-4895-ab00-ab57461e70cf",
+          "A2": "ChangeContactScriptTask",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "IL2": "ba73ea8a-5a22-4c8b-807e-e27f1d404045",
+          "BL3": "236;185",
+          "BL6": "Task",
+          "BL7": "0e490dda-e140-4441-b600-6f5c64d024df",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "BN2": "69;55",
+          "BO3": true,
+          "BP2": [],
+          "CL2": "FFFFFFFF",
+          "CH1": "ProcessContact();\r\nreturn true;"
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaUserTask",
+          "UId": "9da5af0d-7621-41eb-8e00-f682895bb04e",
+          "A2": "LinkContactToLead",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "IL2": "ba73ea8a-5a22-4c8b-807e-e27f1d404045",
+          "BL3": "518;65",
+          "BL6": "Task",
+          "BL7": "d3021ca7-7450-4678-a117-060171eb2976",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "BN2": "69;55",
+          "BO3": true,
+          "BP2": [
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "6dd0bc3f-edfa-4078-87d0-79fe8307a8ab",
+              "A2": "EntitySchemaUId",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A5": "66e9e705-64b4-4dda-925e-d1e05a389eb6",
+              "IL2": "9da5af0d-7621-41eb-8e00-f682895bb04e",
+              "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+              "L8": {
+                "GS1": 1,
+                "GS2": "41af89e9-750b-4ebb-8cac-ff39b64841ec",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              },
+              "L9": "6c7394db-06ff-4050-91ef-8278e21dce15",
+              "L16": "SysSchema"
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "55ac08c6-ba80-4060-81f6-fb82943a2aa6",
+              "A2": "IsMatchConditions",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A5": "66e9e705-64b4-4dda-925e-d1e05a389eb6",
+              "IL2": "9da5af0d-7621-41eb-8e00-f682895bb04e",
+              "L1": "90b65bf8-0ffc-4141-8779-2420877af907",
+              "L8": {
+                "GS1": 1,
+                "GS2": "true",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "34908b60-ff49-4067-a7d9-fecfeba3d015",
+              "A2": "DataSourceFilters",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A5": "66e9e705-64b4-4dda-925e-d1e05a389eb6",
+              "IL2": "9da5af0d-7621-41eb-8e00-f682895bb04e",
+              "L1": "394e160f-c8e0-46fa-9c0d-75d97e9e9169",
+              "L8": {
+                "GS1": 1,
+                "GS2": "{\"className\":\"BPMSoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"BPMSoft.FilterGroup\\\",\\\"items\\\":{\\\"bec936c0-f7e9-4c1e-8547-f7ea4984b173\\\":{\\\"className\\\":\\\"BPMSoft.CompareFilter\\\",\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"BPMSoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"bec936c0-f7e9-4c1e-8547-f7ea4984b173\\\",\\\"dataValueType\\\":0,\\\"leftExpressionCaption\\\":\\\"Id\\\",\\\"rightExpression\\\":{\\\"className\\\":\\\"BPMSoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"BPMSoft.Parameter\\\",\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]\\\",\\\"displayValue\\\":\\\"Lead\\\",\\\"Id\\\":\\\"97b97055-9f9f-4d82-bff0-b5fc08c00ca0\\\"}}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Lead\\\",\\\"key\\\":\\\"0af2f38b-dc65-4c71-84d5-bd9e0966cb8b\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"bec936c0-f7e9-4c1e-8547-f7ea4984b173\\\":{\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"rightExpression\\\":{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]\\\",\\\"Id\\\":\\\"97b97055-9f9f-4d82-bff0-b5fc08c00ca0\\\"}}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Lead\\\"}\"}",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "ee931748-590a-41b4-8229-e4dc1c8b23af",
+              "A2": "RecordColumnValues",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A5": "66e9e705-64b4-4dda-925e-d1e05a389eb6",
+              "IL2": "9da5af0d-7621-41eb-8e00-f682895bb04e",
+              "L1": "b53eaa2a-4bb7-4a6b-9f4f-58ccab293e31",
+              "L8": {
+                "GS1": 1,
+                "GS2": "{\"$type\":\"BPMSoft.Core.Process.LocalizableParameterValuesList, BPMSoft.Core\",\"$values\":[{\"ItemUId\":\"0defaf7f-df69-4043-8284-dca3617928d2\",\"columnMetaPath\":{\"value\":\"ad490d58-054a-4d85-9246-dd8466eb3983\"},\"schemaUId\":{\"value\":\"41af89e9-750b-4ebb-8cac-ff39b64841ec\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{21f03e5d-1b78-48dc-9e30-1c86f9161488}]#]\"},\"displayValue\":{\"value\":\"[#Qualified as contact#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"BPMSoft.Core.Process.ProcessSchemaParameterValue, BPMSoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"b295071f-7ea9-4e62-8d1a-919bf3732ff2\\\",\\\"ReferenceSchemaUId\\\":\\\"16be3651-8fe2-4159-8dd0-a803d4683dd3\\\",\\\"ResourceItemName\\\":null}\"}}]}",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "825263e4-a53a-4fc8-95cf-74d3f539f29c",
+              "A2": "ConsiderTimeInFilter",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "IL2": "9da5af0d-7621-41eb-8e00-f682895bb04e",
+              "L1": "90b65bf8-0ffc-4141-8779-2420877af907",
+              "L8": {
+                "GS1": 3,
+                "GS2": "false",
+                "GS5": "d3021ca7-7450-4678-a117-060171eb2976",
+                "GS8": "false"
+              }
+            }
+          ],
+          "CL2": "FFFFFFFF",
+          "J6": "d3021ca7-7450-4678-a117-060171eb2976"
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaUserTask",
+          "UId": "1337590d-7ee1-488b-b0db-de061f6759f5",
+          "A2": "LinkAccountToLead",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "IL2": "ba73ea8a-5a22-4c8b-807e-e27f1d404045",
+          "BL3": "511;359",
+          "BL6": "Task",
+          "BL7": "d3021ca7-7450-4678-a117-060171eb2976",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "BN2": "69;55",
+          "BO3": true,
+          "BP2": [
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "7b3e0e2a-6d32-492c-9290-46e7c194da0b",
+              "A2": "EntitySchemaUId",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A5": "66e9e705-64b4-4dda-925e-d1e05a389eb6",
+              "IL2": "1337590d-7ee1-488b-b0db-de061f6759f5",
+              "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+              "L8": {
+                "GS1": 1,
+                "GS2": "41af89e9-750b-4ebb-8cac-ff39b64841ec",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              },
+              "L9": "6c7394db-06ff-4050-91ef-8278e21dce15",
+              "L16": "SysSchema"
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "fbd3778b-b29e-4da4-878c-479ce66f6695",
+              "A2": "IsMatchConditions",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A5": "66e9e705-64b4-4dda-925e-d1e05a389eb6",
+              "IL2": "1337590d-7ee1-488b-b0db-de061f6759f5",
+              "L1": "90b65bf8-0ffc-4141-8779-2420877af907",
+              "L8": {
+                "GS1": 1,
+                "GS2": "true",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "e2572aab-9833-4451-bac3-3c93b4938008",
+              "A2": "DataSourceFilters",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A5": "66e9e705-64b4-4dda-925e-d1e05a389eb6",
+              "IL2": "1337590d-7ee1-488b-b0db-de061f6759f5",
+              "L1": "394e160f-c8e0-46fa-9c0d-75d97e9e9169",
+              "L8": {
+                "GS1": 1,
+                "GS2": "{\"className\":\"BPMSoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"BPMSoft.FilterGroup\\\",\\\"items\\\":{\\\"5bf26037-276c-4d59-b5f6-c7f2ecb2c5a5\\\":{\\\"className\\\":\\\"BPMSoft.CompareFilter\\\",\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"BPMSoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"5bf26037-276c-4d59-b5f6-c7f2ecb2c5a5\\\",\\\"dataValueType\\\":0,\\\"leftExpressionCaption\\\":\\\"Id\\\",\\\"rightExpression\\\":{\\\"className\\\":\\\"BPMSoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"BPMSoft.Parameter\\\",\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]\\\",\\\"displayValue\\\":\\\"Lead\\\",\\\"Id\\\":\\\"1a00f8ec-0b19-4877-8724-54c338ea29ed\\\"}}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Lead\\\",\\\"key\\\":\\\"018dbabf-291d-4e8b-bf8c-96f4100fbbfe\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"5bf26037-276c-4d59-b5f6-c7f2ecb2c5a5\\\":{\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"rightExpression\\\":{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]\\\",\\\"Id\\\":\\\"1a00f8ec-0b19-4877-8724-54c338ea29ed\\\"}}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Lead\\\"}\"}",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "2c5dda1b-35c1-410a-8a66-b8e7dbef353d",
+              "A2": "RecordColumnValues",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A5": "66e9e705-64b4-4dda-925e-d1e05a389eb6",
+              "IL2": "1337590d-7ee1-488b-b0db-de061f6759f5",
+              "L1": "b53eaa2a-4bb7-4a6b-9f4f-58ccab293e31",
+              "L8": {
+                "GS1": 1,
+                "GS2": "{\"$type\":\"BPMSoft.Core.Process.LocalizableParameterValuesList, BPMSoft.Core\",\"$values\":[{\"ItemUId\":\"21856d38-6baf-446a-abb4-97a98641bf8b\",\"columnMetaPath\":{\"value\":\"32949ae4-ff13-48f5-9f5d-45a74558ea55\"},\"schemaUId\":{\"value\":\"41af89e9-750b-4ebb-8cac-ff39b64841ec\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{adff468f-5785-4238-a962-2d46a6df9207}]#]\"},\"displayValue\":{\"value\":\"[#Qualified as account#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"BPMSoft.Core.Process.ProcessSchemaParameterValue, BPMSoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"b295071f-7ea9-4e62-8d1a-919bf3732ff2\\\",\\\"ReferenceSchemaUId\\\":\\\"25d7c1ab-1de0-4501-b402-02e0e5a72d6e\\\",\\\"ResourceItemName\\\":null}\"}}]}",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "4fbd0883-913e-4574-8a28-668399f0d064",
+              "A2": "ConsiderTimeInFilter",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "IL2": "1337590d-7ee1-488b-b0db-de061f6759f5",
+              "L1": "90b65bf8-0ffc-4141-8779-2420877af907",
+              "L8": {
+                "GS1": 3,
+                "GS2": "false",
+                "GS5": "d3021ca7-7450-4678-a117-060171eb2976",
+                "GS8": "false"
+              }
+            }
+          ],
+          "CL2": "FFFFFFFF",
+          "J6": "d3021ca7-7450-4678-a117-060171eb2976"
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaExclusiveGateway",
+          "UId": "045b9d72-61cb-4f5f-8a92-c02297c04e1d",
+          "A2": "ExclusiveGatewayQualifiedAccount",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "IL2": "ba73ea8a-5a22-4c8b-807e-e27f1d404045",
+          "BL3": "518;205",
+          "BL6": "Gateway",
+          "BL7": "bd9f7570-6c97-4f16-90e5-663a190c6c7c",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "BN2": "55;55",
+          "BO3": true,
+          "HH2": []
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaUserTask",
+          "UId": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+          "A2": "ReadSystemSettings",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "IL2": "ba73ea8a-5a22-4c8b-807e-e27f1d404045",
+          "BL3": "236;304",
+          "BL6": "Task",
+          "BL7": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "BN2": "69;55",
+          "BO2": true,
+          "BO3": true,
+          "BP2": [
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "5b47b7b3-1c3a-4e76-8b27-d2d1429d61ee",
+              "A2": "DataSourceFilters",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A5": "66e9e705-64b4-4dda-925e-d1e05a389eb6",
+              "IL2": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+              "L1": "394e160f-c8e0-46fa-9c0d-75d97e9e9169",
+              "L8": {
+                "GS1": 1,
+                "GS2": "{\"className\":\"BPMSoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"BPMSoft.FilterGroup\\\",\\\"items\\\":{\\\"27867255-220f-4c4c-9846-5c109d673ed4\\\":{\\\"className\\\":\\\"BPMSoft.CompareFilter\\\",\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"BPMSoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"SysSettings.Code\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"27867255-220f-4c4c-9846-5c109d673ed4\\\",\\\"dataValueType\\\":1,\\\"leftExpressionCaption\\\":\\\"System setting.Code\\\",\\\"rightExpression\\\":{\\\"className\\\":\\\"BPMSoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"BPMSoft.Parameter\\\",\\\"dataValueType\\\":27,\\\"value\\\":\\\"CreateAccountOnQualification\\\"}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"SysSettingsValue\\\",\\\"key\\\":\\\"4a64d9b9-b43b-4196-8e1a-eb874e3f01e1\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"27867255-220f-4c4c-9846-5c109d673ed4\\\":{\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"SysSettings.Code\\\"},\\\"rightExpression\\\":{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":27,\\\"value\\\":\\\"CreateAccountOnQualification\\\"}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"SysSettingsValue\\\"}\"}",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "055337fb-4c12-4162-baa0-f0a6f82b04f1",
+              "A2": "ResultType",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {
+                "GS1": 1,
+                "GS2": "0",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "61008822-6246-4cb7-94b5-d7ab2c0e761f",
+              "A2": "ReadSomeTopRecords",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+              "L1": "90b65bf8-0ffc-4141-8779-2420877af907",
+              "L8": {
+                "GS1": 1,
+                "GS2": "true",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "a18bad05-72bd-47e8-8a76-9adc5adb727a",
+              "A2": "NumberOfRecords",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {
+                "GS1": 1,
+                "GS2": "1",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "05ce4b0d-7adf-4370-a4da-9a578ae526a6",
+              "A2": "FunctionType",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {
+                "GS1": 1,
+                "GS2": "0",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "b54c1807-d3db-417d-acc8-5ec641e8f114",
+              "A2": "AggregationColumnName",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+              "L1": "394e160f-c8e0-46fa-9c0d-75d97e9e9169",
+              "L8": {}
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "eb5b205e-4427-45cf-8b2f-e5c11ffb5d04",
+              "A2": "OrderInfo",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+              "L1": "394e160f-c8e0-46fa-9c0d-75d97e9e9169",
+              "L8": {
+                "GS1": 1,
+                "GS2": "SysSettings:1:1,Id:0:0",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "411b2f2b-abb2-49c4-b63c-c589bc81bb8c",
+              "A2": "ResultEntity",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A5": "66e9e705-64b4-4dda-925e-d1e05a389eb6",
+              "IL2": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+              "L1": "ebd85d37-0abf-4bbf-bb32-97dc3dffcc8c",
+              "L8": {
+                "GS1": 1,
+                "GS2": "",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              },
+              "L9": "951b2bbb-0ba3-4049-9a29-b5d4c0b6d50f",
+              "L13": true,
+              "L16": "SysSettingsValue"
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "0107e886-cf9e-458c-9fa5-10337b71312c",
+              "A2": "ResultCount",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {
+                "GS2": ""
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "c92f52ed-8123-486d-ae9b-c9c0f3e785cf",
+              "A2": "ResultIntegerFunction",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {
+                "GS2": ""
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "6c8845de-fd11-481f-ba54-02935c4aeb9d",
+              "A2": "ResultFloatFunction",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+              "L1": "ff22e049-4d16-46ee-a529-92d8808932dc",
+              "L8": {
+                "GS2": ""
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "63c46681-2887-41fe-8ea5-3cd9bd9e60fe",
+              "A2": "ResultDateTimeFunction",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+              "L1": "d21e9ef4-c064-4012-b286-fa1a8171da44",
+              "L8": {
+                "GS2": ""
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "f0232a3c-912e-48ab-9927-5fc33677f7ba",
+              "A2": "ResultRowsCount",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {
+                "GS2": ""
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "06e3ef5a-2fa6-49b7-bfa6-3a114e683d05",
+              "A2": "CanReadUncommitedData",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+              "L1": "90b65bf8-0ffc-4141-8779-2420877af907",
+              "L8": {
+                "GS1": 1,
+                "GS2": "False",
+                "GS5": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "0a40e220-4683-47e0-a0c2-892934668fc3",
+              "A2": "ResultEntityCollection",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+              "L1": "51fb23ba-3eb2-11e2-b7d5-b0c76188709b",
+              "L8": {
+                "GS1": 1,
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              },
+              "L9": "951b2bbb-0ba3-4049-9a29-b5d4c0b6d50f",
+              "L16": "SysSettingsValue"
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "44d1abb0-802b-49e6-9571-d667de498b3e",
+              "A2": "EntityColumnMetaPathes",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+              "L1": "394e160f-c8e0-46fa-9c0d-75d97e9e9169",
+              "L8": {
+                "GS2": "",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "11fe36aa-20e3-41b3-99f4-0a35fd3628cc",
+              "A2": "IgnoreDisplayValues",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+              "L1": "90b65bf8-0ffc-4141-8779-2420877af907",
+              "L8": {
+                "GS2": ""
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "7b761d52-e117-4dc0-a0c4-c2846c0292bb",
+              "A2": "ResultCompositeObjectList",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+              "L1": "651ec16f-d140-46db-b9e2-825c985a8ac2",
+              "L8": {
+                "GS2": ""
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "91d86af3-634e-48c9-b566-355568110d9f",
+              "A2": "ConsiderTimeInFilter",
+              "A3": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "A4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
+              "IL2": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+              "L1": "90b65bf8-0ffc-4141-8779-2420877af907",
+              "L8": {
+                "GS1": 3,
+                "GS2": "false",
+                "GS5": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f"
+              }
+            }
+          ],
+          "CL2": "FFFFFFFF",
+          "J6": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f"
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaExclusiveGateway",
+          "UId": "afcc2355-be16-486b-bcf6-db2841519eb1",
+          "A2": "ExclusiveGatewayIsQualificationPassed",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "IL2": "ba73ea8a-5a22-4c8b-807e-e27f1d404045",
+          "BL3": "243;465",
+          "BL6": "Gateway",
+          "BL7": "bd9f7570-6c97-4f16-90e5-663a190c6c7c",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "BN2": "55;55",
+          "BO3": true,
+          "HH2": []
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaUserTask",
+          "UId": "d5956d29-6377-467e-a94b-24cf386951b3",
+          "A2": "ChangeLeadIsQualificationPassedTrue",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "IL2": "ba73ea8a-5a22-4c8b-807e-e27f1d404045",
+          "BL3": "951;65",
+          "BL6": "Task",
+          "BL7": "d3021ca7-7450-4678-a117-060171eb2976",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "BN2": "69;55",
+          "BO3": true,
+          "BP2": [
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "2585e082-21c1-4b40-97bb-421446d5072b",
+              "A2": "EntitySchemaUId",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A5": "66e9e705-64b4-4dda-925e-d1e05a389eb6",
+              "IL2": "d5956d29-6377-467e-a94b-24cf386951b3",
+              "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+              "L8": {
+                "GS1": 1,
+                "GS2": "41af89e9-750b-4ebb-8cac-ff39b64841ec",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              },
+              "L9": "6c7394db-06ff-4050-91ef-8278e21dce15",
+              "L16": "SysSchema"
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "8e537058-764d-485f-976a-f2c1892e719d",
+              "A2": "IsMatchConditions",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A5": "66e9e705-64b4-4dda-925e-d1e05a389eb6",
+              "IL2": "d5956d29-6377-467e-a94b-24cf386951b3",
+              "L1": "90b65bf8-0ffc-4141-8779-2420877af907",
+              "L8": {
+                "GS1": 3,
+                "GS2": "true",
+                "GS5": "d3021ca7-7450-4678-a117-060171eb2976"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "7fa0d07d-a96d-43f6-8700-5d9b0a159e1c",
+              "A2": "DataSourceFilters",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A5": "66e9e705-64b4-4dda-925e-d1e05a389eb6",
+              "IL2": "d5956d29-6377-467e-a94b-24cf386951b3",
+              "L1": "394e160f-c8e0-46fa-9c0d-75d97e9e9169",
+              "L8": {
+                "GS1": 1,
+                "GS2": "{\"className\":\"BPMSoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"BPMSoft.FilterGroup\\\",\\\"items\\\":{\\\"5367489b-0a1c-442d-96e1-f8be5ab03cae\\\":{\\\"className\\\":\\\"BPMSoft.CompareFilter\\\",\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"BPMSoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"5367489b-0a1c-442d-96e1-f8be5ab03cae\\\",\\\"dataValueType\\\":0,\\\"leftExpressionCaption\\\":\\\"Id\\\",\\\"rightExpression\\\":{\\\"className\\\":\\\"BPMSoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"BPMSoft.Parameter\\\",\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]\\\",\\\"displayValue\\\":\\\"Lead\\\",\\\"Id\\\":\\\"77811003-8f02-4ac8-8d7e-cccdba839019\\\"}}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Lead\\\",\\\"key\\\":\\\"b37c8b0d-85a4-4687-a438-126d3e7ccc10\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"5367489b-0a1c-442d-96e1-f8be5ab03cae\\\":{\\\"filterType\\\":1,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"Id\\\"},\\\"rightExpression\\\":{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":26,\\\"value\\\":{\\\"value\\\":\\\"[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]\\\",\\\"Id\\\":\\\"77811003-8f02-4ac8-8d7e-cccdba839019\\\"}}}}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Lead\\\"}\"}",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "95da49a7-ccce-4ad9-befc-0d569ae20247",
+              "A2": "RecordColumnValues",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A5": "66e9e705-64b4-4dda-925e-d1e05a389eb6",
+              "IL2": "d5956d29-6377-467e-a94b-24cf386951b3",
+              "L1": "b53eaa2a-4bb7-4a6b-9f4f-58ccab293e31",
+              "L8": {
+                "GS1": 1,
+                "GS2": "{\"$type\":\"BPMSoft.Core.Process.LocalizableParameterValuesList, BPMSoft.Core\",\"$values\":[{\"ItemUId\":\"af8d8697-674f-435d-8922-58710472ecd4\",\"columnMetaPath\":{\"value\":\"d46a1b66-17a7-4603-b1ce-49313701da31\"},\"schemaUId\":{\"value\":\"41af89e9-750b-4ebb-8cac-ff39b64841ec\"},\"value\":{\"value\":\"true\"},\"displayValue\":{\"value\":\"true\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"BPMSoft.Core.Process.ProcessSchemaParameterValue, BPMSoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"90b65bf8-0ffc-4141-8779-2420877af907\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}}]}",
+                "GS5": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25"
+              }
+            },
+            {
+              "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+              "UId": "57359ef5-c924-42ea-841d-db623fd1e880",
+              "A2": "ConsiderTimeInFilter",
+              "A3": "d3021ca7-7450-4678-a117-060171eb2976",
+              "A4": "d3021ca7-7450-4678-a117-060171eb2976",
+              "IL2": "d5956d29-6377-467e-a94b-24cf386951b3",
+              "L1": "90b65bf8-0ffc-4141-8779-2420877af907",
+              "L8": {
+                "GS1": 3,
+                "GS2": "false",
+                "GS5": "d3021ca7-7450-4678-a117-060171eb2976",
+                "GS8": "false"
+              }
+            }
+          ],
+          "CL2": "FFFFFFFF",
+          "J6": "d3021ca7-7450-4678-a117-060171eb2976"
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "c65a1bbe-a2e1-4643-aea1-a3b83207ea88",
+          "A2": "SequenceFlow1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "BL6": "SequenceFlow",
+          "BL7": "0d8351f6-c2f4-4737-bdd9-6fbfe0837fec",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "CI1": "bf1b5b17-6f6d-4e3d-8136-b213854f53b7",
+          "CI2": "ed9cbb4d-b5c9-4231-ab67-76ffff3433b0",
+          "CI3": "null",
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI9": "373;203"
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaConditionalFlow",
+          "UId": "00b2c101-a67f-4a28-a60e-f6ef8f988808",
+          "A2": "ConditionalFlowLeadUndefined",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "BL6": "SequenceFlow",
+          "BL7": "dac675d4-ea84-4e44-9056-38bf918618e9",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "CI1": "ed9cbb4d-b5c9-4231-ab67-76ffff3433b0",
+          "CI2": "478ef5b0-3cfe-49aa-9d92-d33e5210847a",
+          "CI3": "[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{7da3d394-c5b2-4fba-be47-747a00d3685e}]#] == Guid.Empty",
+          "CI4": 2,
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI7": "0;-1",
+          "CI8": "0;1",
+          "CI9": "176;271",
+          "CI10": {
+            "Item0": "128;416",
+            "Item1": "127;416"
+          },
+          "GV2": "{\"$type\":\"System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.ObjectModel.Collection`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib\"}",
+          "GV3": []
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "756698c0-b46a-4130-a2ea-3b7d3f77b46b",
+          "A2": "LeadDefined",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "BL6": "SequenceFlow",
+          "BL7": "573ed909-e069-4161-b193-ae8dd9437c68",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "CI1": "ed9cbb4d-b5c9-4231-ab67-76ffff3433b0",
+          "CI2": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+          "CI3": "null",
+          "CI4": 1,
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI7": "1;0",
+          "CI8": "-1;0",
+          "CI9": "231;203",
+          "CI10": {
+            "Item0": "195;374",
+            "Item1": "195;688"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "c7e87ab7-7efe-4228-b1ed-7c57a2135e50",
+          "A2": "SequenceFlowNoAccount",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "BL6": "SequenceFlow",
+          "BL7": "573ed909-e069-4161-b193-ae8dd9437c68",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "CI1": "968e7a35-4c26-459a-806f-a3b34d7fe1c2",
+          "CI2": "2b2b8a21-5d60-4170-a9eb-caa404a44b84",
+          "CI3": "null",
+          "CI4": 1,
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI7": "1;0",
+          "CI8": "-1;0",
+          "CI9": "1084;512",
+          "CI10": {
+            "Item0": "684;513",
+            "Item1": "684;93"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaConditionalFlow",
+          "UId": "8df03451-825f-4626-947e-1c39dddd618f",
+          "A2": "ConditionalFlow3",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "BL6": "SequenceFlow",
+          "BL7": "dac675d4-ea84-4e44-9056-38bf918618e9",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "CI1": "968e7a35-4c26-459a-806f-a3b34d7fe1c2",
+          "CI2": "304c2e1a-af0b-4016-a95f-ee471f292c6e",
+          "CI3": "[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{adff468f-5785-4238-a962-2d46a6df9207}]#]!= Guid.Empty && [#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{21f03e5d-1b78-48dc-9e30-1c86f9161488}]#] != Guid.Empty",
+          "CI4": 2,
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI7": "0;-1",
+          "CI8": "0;1",
+          "CI9": "1021;601",
+          "GV2": "{\"$type\":\"System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.ObjectModel.Collection`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib\"}",
+          "GV3": []
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "d11e3a52-d220-4d16-b36a-25b6d32fa2d8",
+          "A2": "SequenceFlow14",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "BL6": "SequenceFlow",
+          "BL7": "0d8351f6-c2f4-4737-bdd9-6fbfe0837fec",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "CI1": "304c2e1a-af0b-4016-a95f-ee471f292c6e",
+          "CI2": "2b2b8a21-5d60-4170-a9eb-caa404a44b84",
+          "CI3": "null",
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI7": "1;0",
+          "CI8": "0;-1",
+          "CI9": "1104;628",
+          "CI10": {
+            "Item0": "831;688"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "aecc3666-b64f-448b-92d5-e58fceb68420",
+          "A2": "SequenceFlow23",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "BL6": "SequenceFlow",
+          "BL7": "0d8351f6-c2f4-4737-bdd9-6fbfe0837fec",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "CI1": "2b2b8a21-5d60-4170-a9eb-caa404a44b84",
+          "CI2": "d5956d29-6377-467e-a94b-24cf386951b3",
+          "CI3": "null",
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI7": "1;0",
+          "CI8": "-1;0",
+          "CI9": "1782;434"
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "d5c984cc-6130-459a-87b9-d537c71ee823",
+          "A2": "SequenceFlow26",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "BL6": "SequenceFlow",
+          "BL7": "0d8351f6-c2f4-4737-bdd9-6fbfe0837fec",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "CI1": "9970214a-b543-4895-ab00-ab57461e70cf",
+          "CI2": "97776b38-7f29-472a-ab13-e87884d17d43",
+          "CI3": "null",
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI7": "0;1",
+          "CI8": "0;-1",
+          "CI11": "271;185",
+          "CI12": "54;-82",
+          "CI9": "793;206",
+          "CI10": {
+            "Item0": "271;121",
+            "Item1": "54;121"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaConditionalFlow",
+          "UId": "644d1a44-d831-44e0-982d-8da2dc9c15bf",
+          "A2": "QualifiedContactExistsSequenceFlow",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "BL6": "SequenceFlow",
+          "BL7": "dac675d4-ea84-4e44-9056-38bf918618e9",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "CI1": "97776b38-7f29-472a-ab13-e87884d17d43",
+          "CI2": "9da5af0d-7621-41eb-8e00-f682895bb04e",
+          "CI3": "[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{21f03e5d-1b78-48dc-9e30-1c86f9161488}]#] != Guid.Empty",
+          "CI4": 2,
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI7": "0;1",
+          "CI8": "0;1",
+          "CI11": "54;-137",
+          "CI12": "553;65",
+          "CI10": {
+            "Item0": "54;-230",
+            "Item1": "553;-230"
+          },
+          "GV2": "{\"$type\":\"System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.ObjectModel.Collection`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib\"}",
+          "GV3": []
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "2f920b5d-24b3-48d4-8c77-b0608b4cbdac",
+          "A2": "DefaultSequenceFlow1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "BL6": "SequenceFlow",
+          "BL7": "573ed909-e069-4161-b193-ae8dd9437c68",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "CI1": "97776b38-7f29-472a-ab13-e87884d17d43",
+          "CI2": "045b9d72-61cb-4f5f-8a92-c02297c04e1d",
+          "CI3": "null",
+          "CI4": 1,
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI7": "1;0",
+          "CI8": "-1;0",
+          "CI11": "88;-109",
+          "CI12": "518;233",
+          "CI10": {
+            "Item0": "413;-109",
+            "Item1": "413;233"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "b8793434-8131-45af-9836-038f53b3d96f",
+          "A2": "SequenceFlow4",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "BL6": "SequenceFlow",
+          "BL7": "0d8351f6-c2f4-4737-bdd9-6fbfe0837fec",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "CI1": "1337590d-7ee1-488b-b0db-de061f6759f5",
+          "CI2": "968e7a35-4c26-459a-806f-a3b34d7fe1c2",
+          "CI3": "null",
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI7": "0;-1",
+          "CI8": "0;1"
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "48ad4d37-ec71-49c5-bbbc-48d071c60c63",
+          "A2": "SequenceFlow3",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "BL6": "SequenceFlow",
+          "BL7": "0d8351f6-c2f4-4737-bdd9-6fbfe0837fec",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "CI1": "9da5af0d-7621-41eb-8e00-f682895bb04e",
+          "CI2": "045b9d72-61cb-4f5f-8a92-c02297c04e1d",
+          "CI3": "null",
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI7": "0;-1",
+          "CI8": "0;1",
+          "CI10": {
+            "Item0": "553;150",
+            "Item1": "546;150"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "5307b755-7675-4cab-b5a0-bbf36f487016",
+          "A2": "SequenceFlow5",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "BL6": "SequenceFlow",
+          "BL7": "0d8351f6-c2f4-4737-bdd9-6fbfe0837fec",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "CI1": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+          "CI2": "9970214a-b543-4895-ab00-ab57461e70cf",
+          "CI3": "null",
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI7": "0;1",
+          "CI8": "0;-1"
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaConditionalFlow",
+          "UId": "2e0ed20e-8966-4d04-847a-b6b5a83c0b82",
+          "A2": "QualifiedAccountExistsSequenceFlow",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "BL6": "SequenceFlow",
+          "BL7": "dac675d4-ea84-4e44-9056-38bf918618e9",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "CI1": "045b9d72-61cb-4f5f-8a92-c02297c04e1d",
+          "CI2": "1337590d-7ee1-488b-b0db-de061f6759f5",
+          "CI3": "[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{adff468f-5785-4238-a962-2d46a6df9207}]#] != Guid.Empty",
+          "CI4": 2,
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI7": "1;0",
+          "CI8": "0;1",
+          "CI10": {
+            "Item0": "588;233",
+            "Item1": "588;344",
+            "Item2": "546;344"
+          },
+          "GV2": "{\"$type\":\"System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.ObjectModel.Collection`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib\"}",
+          "GV3": []
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "8f67e700-62e9-40c4-a643-f73bb5f05cad",
+          "A2": "DefaultSequenceFlow2",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "BL6": "SequenceFlow",
+          "BL7": "573ed909-e069-4161-b193-ae8dd9437c68",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "CI1": "045b9d72-61cb-4f5f-8a92-c02297c04e1d",
+          "CI2": "968e7a35-4c26-459a-806f-a3b34d7fe1c2",
+          "CI3": "null",
+          "CI4": 1,
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI7": "0;-1",
+          "CI8": "-1;0",
+          "CI10": {
+            "Item0": "546;275",
+            "Item1": "445;275",
+            "Item2": "445;513"
+          }
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "c084c45e-344c-4716-9e7d-5c2a2156f893",
+          "A2": "SequenceFlow2",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "BL6": "SequenceFlow",
+          "BL7": "0d8351f6-c2f4-4737-bdd9-6fbfe0837fec",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "CI1": "8bf25d2e-0f4c-4ed1-b885-635952f9e063",
+          "CI2": "afcc2355-be16-486b-bcf6-db2841519eb1",
+          "CI3": "null",
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI7": "0;1",
+          "CI8": "0;-1"
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaConditionalFlow",
+          "UId": "fce21b7b-3f73-4e8d-abd1-a8c48ebfab45",
+          "A2": "ConditionalSequenceFlow1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "BL6": "SequenceFlow",
+          "BL7": "dac675d4-ea84-4e44-9056-38bf918618e9",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "CI1": "afcc2355-be16-486b-bcf6-db2841519eb1",
+          "CI2": "478ef5b0-3cfe-49aa-9d92-d33e5210847a",
+          "CI3": "[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{9c638b0f-7b13-46c3-bef4-2010a78fb3a4}]#]==true ",
+          "CI4": 2,
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI7": "1;0",
+          "CI8": "1;0",
+          "CI10": {
+            "Item0": "313;493",
+            "Item1": "313;791",
+            "Item2": "155;791",
+            "Item3": "155;507"
+          },
+          "GV2": "{\"$type\":\"System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.ObjectModel.Collection`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib\"}",
+          "GV3": []
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "164357f3-a851-4f43-b08a-6416dd1e9661",
+          "A2": "DefaultSequenceFlow3",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "BL6": "SequenceFlow",
+          "BL7": "573ed909-e069-4161-b193-ae8dd9437c68",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "CI1": "afcc2355-be16-486b-bcf6-db2841519eb1",
+          "CI2": "a188ff27-c185-4b79-b24c-71503e5df1a6",
+          "CI3": "null",
+          "CI4": 1,
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI7": "0;1",
+          "CI8": "0;-1"
+        },
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "cd4daabe-3357-4592-82a8-76ba3320c72a",
+          "A2": "SequenceFlow6",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A5": "1e237cf8-8779-4cfc-b345-bd1b0e37052e",
+          "BL6": "SequenceFlow",
+          "BL7": "0d8351f6-c2f4-4737-bdd9-6fbfe0837fec",
+          "BL8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+          "CI1": "d5956d29-6377-467e-a94b-24cf386951b3",
+          "CI2": "279e66a8-61fb-4e2b-8559-0362a5ebb1fe",
+          "CI3": "null",
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI7": "1;0"
+        }
+      ],
+      "BK9": [],
+      "BK18": "DanLeadManagementQualificationINNCheck",
+      "BK29": true,
+      "BK31": true,
+      "BK33": "\r\npublic virtual void ProcessAccount() {\r\n\tGuid accountId = LeadAccountId;\r\n\tbool createAccount = CreateAccountOnQualification;\r\n\tvar account = new BPMSoft.Configuration.Account(UserConnection);\r\n\tbool accountExists = false;\r\n\tif (accountId.IsEmpty()) {\r\n\t\taccountId = Guid.NewGuid();\r\n\t} else {\r\n\t\taccountExists = account.FetchFromDB(accountId);\r\n\t}\r\n\tif (!accountExists) {\r\n\t\tif (createAccount) {\r\n\t\t\tLeadAccountId = accountId;\r\n\t\t\taccount.Id = accountId;\r\n\t\t\taccount.SetDefColumnValues();\r\n\t\t} else {\r\n\t\t\treturn;\r\n\t\t}\r\n\t}\r\n\tif (!string.IsNullOrEmpty(LeadAccountName)) {\r\n\t\taccount.Name = LeadAccountName;\r\n\t}\r\n\tif (string.IsNullOrEmpty(account.Name)) {\r\n\t\treturn;\r\n\t}\r\n\tSetValue(account, \"OwnershipId\", LeadOwnership);\r\n\tSetValue(account, \"OwnerId\", LeadOwner);\r\n\tSetValue(account, \"IndustryId\", LeadIndustry);\r\n\tSetValue(account, \"AccountCategoryId\", LeadAccountCategory);\r\n\tSetValue(account, \"EmployeesNumberId\", LeadEmployeesNumber);\r\n\tSetValue(account, \"AnnualRevenueId\", LeadAnnualRevenue);\r\n\t\r\n\tSetValue(account, \"DanAccountINN\", LeadAccountInn);\r\n\t\r\n\taccount.UseAdminRights = false;\r\n\taccount.Save(false);\r\n\tSyncAccountCommunications(account.Id);\r\n\tAccountId = accountId;\r\n\tAddAccountAddress(accountId);\r\n}\r\n\r\n\r\npublic virtual void SetValue(Entity entity, string valueName, Object value) {\r\n\tif (value == null || Guid.Empty.Equals(value) || string.IsNullOrEmpty(value.ToString())) {\r\n\t\treturn;\r\n\t}\r\n\tentity.SetColumnValue(valueName, value);\r\n}\r\n\r\n\r\npublic virtual void ProcessContact() {\r\n\tGuid contactId = LeadContactId;\r\n\tvar contact = new BPMSoft.Configuration.Contact(UserConnection);\r\n\tstring contactName = LeadContactName;\r\n\tif (contactId.IsEmpty()) {\r\n\t\tif (!string.IsNullOrEmpty(contactName)) {\r\n\t\t\tcontactId = Guid.NewGuid();\r\n\t\t\tcontact.SetDefColumnValues();\r\n\t\t\tcontact.Id = contactId;\r\n\t\t} else {\r\n\t\t\treturn;\r\n\t\t}\r\n\t} else if (!contact.FetchFromDB(contactId)) {\r\n\t\treturn;\r\n\t}\r\n\tif (!string.IsNullOrEmpty(contactName)) {\r\n\t\tcontact.Name = contactName;\r\n\t}\r\n\tContactId = contactId;\r\n\tSetValue(contact, \"Dear\", LeadDear);\r\n\tSetValue(contact, \"OwnerId\", LeadOwner);\r\n\tSetValue(contact, \"JobTitle\", LeadFullJobTitle);\r\n\tSetValue(contact, \"SalutationTypeId\", LeadSalutation);\r\n\tSetValue(contact, \"JobId\", LeadJob);\r\n\tSetValue(contact, \"DepartmentId\", LeadDepartment);\r\n\tSetValue(contact, \"GenderId\", LeadGender);\r\n\tSetValue(contact, \"DecisionRoleId\", LeadDecisionRole);\r\n\tcontact.Confirmed = true;\r\n\tcontact.UseAdminRights = false;\r\n\tcontact.Save(false);\r\n\tSyncContactCommunications(contact.Id);\r\n\tAddContacAddress(contact.Id);\r\n}\r\n\r\n\r\npublic virtual void SyncContactCommunications(Guid contactId) {\r\n\tDictionary<Guid, string> leadCommunications = new Dictionary<Guid, string>();\r\n\tif (!string.IsNullOrEmpty(LeadBusinessPhone)) {\r\n\t\tleadCommunications[new Guid(CommunicationTypeConsts.WorkPhoneId)] = LeadBusinessPhone;\r\n\t}\r\n\tif (!string.IsNullOrEmpty(LeadMobilePhone)) {\r\n\t\tleadCommunications[new Guid(CommunicationTypeConsts.MobilePhoneId)] = LeadMobilePhone;\r\n\t}\r\n\tif (!string.IsNullOrEmpty(LeadEmail)) {\r\n\t\tleadCommunications[new Guid(CommunicationTypeConsts.EmailId)] = LeadEmail;\r\n\t}\r\n\tSelect existingNumbers = new Select(UserConnection)\r\n\t\t.Column(\"Number\")\r\n\t\t.From(\"ContactCommunication\")\r\n\t\t.Where(\"ContactId\").IsEqual(Column.Parameter(contactId)) as Select;\r\n\tList<string> contactCommuniations = new List<string>();\r\n\tusing (DBExecutor dbExecutor = UserConnection.EnsureDBConnection()) {\r\n\t\tusing (IDataReader reader = existingNumbers.ExecuteReader(dbExecutor)){\r\n\t\t\twhile (reader.Read()) {\r\n\t\t\t\tcontactCommuniations.Add(reader.GetString(0).ToLower());\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n\tList<KeyValuePair<Guid, string>> communicationsToSync = \r\n\t\tleadCommunications.Where(n => !contactCommuniations.Contains(n.Value.ToLower())).ToList();\r\n\tforeach (KeyValuePair<Guid, string> communication in communicationsToSync) {\r\n\t\tvar contactCommunication = new ContactCommunication(UserConnection);\r\n\t\tcontactCommunication.SetDefColumnValues();\r\n\t\tcontactCommunication.Number = communication.Value;\r\n\t\tcontactCommunication.CommunicationTypeId = communication.Key;\r\n\t\tcontactCommunication.ContactId = contactId;\r\n\t\tcontactCommunication.Save(false);\r\n\t}\r\n}\r\n\r\n\r\npublic virtual void SyncAccountCommunications(Guid accountId) {\r\n\tDictionary<Guid, string> leadCommunications = new Dictionary<Guid, string>();\r\n\tif (!string.IsNullOrEmpty(LeadBusinessPhone)) {\r\n\t\tleadCommunications[new Guid(CommunicationTypeConsts.MainPhoneId)] = LeadBusinessPhone;\r\n\t}\r\n\tif (!string.IsNullOrEmpty(LeadFax)) {\r\n\t\tleadCommunications[new Guid(CommunicationTypeConsts.FaxId)] = LeadFax;\r\n\t}\r\n\tif (!string.IsNullOrEmpty(LeadWebsite)) {\r\n\t\tleadCommunications[new Guid(CommunicationTypeConsts.WebId)] = LeadWebsite;\r\n\t}\r\n\tSelect existingNumbers = new Select(UserConnection)\r\n\t\t.Column(\"Number\")\r\n\t\t.From(\"AccountCommunication\")\r\n\t\t.Where(\"AccountId\").IsEqual(Column.Parameter(accountId)) as Select;\r\n\tList<string> contactCommuniations = new List<string>();\r\n\tusing (DBExecutor dbExecutor = UserConnection.EnsureDBConnection()) {\r\n\t\tusing (IDataReader reader = existingNumbers.ExecuteReader(dbExecutor)){\r\n\t\t\twhile (reader.Read()) {\r\n\t\t\t\tcontactCommuniations.Add(reader.GetString(0).ToLower());\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n\tList<KeyValuePair<Guid, string>> communicationsToSync = \r\n\t\tleadCommunications.Where(n => !contactCommuniations.Contains(n.Value.ToLower())).ToList();\r\n\tforeach (KeyValuePair<Guid, string> communication in communicationsToSync) {\r\n\t\tvar accountCommunication = new AccountCommunication(UserConnection);\r\n\t\taccountCommunication.SetDefColumnValues();\r\n\t\taccountCommunication.Number = communication.Value;\r\n\t\taccountCommunication.CommunicationTypeId = communication.Key;\r\n\t\taccountCommunication.AccountId = accountId;\r\n\t\taccountCommunication.Save(false);\r\n\t}\r\n}\r\n\r\n\r\npublic virtual void AddContacAddress(Guid contactId) {\r\n\tif (LeadAddressType.IsEmpty() && \r\n\t\t\tLeadCity.IsEmpty() && \r\n\t\t\tLeadRegion.IsEmpty() && \r\n\t\t\tLeadCountry.IsEmpty() && \r\n\t\t\tString.IsNullOrEmpty(LeadZip) && \r\n\t\t\tString.IsNullOrEmpty(LeadAddress)) {\r\n\t\treturn;\r\n\t}\r\n\t//Check is address already exists\r\n\tif (IsAddressExists(\r\n\t\t\t\"ContactAddress\", \r\n\t\t\t\"ContactId\", \r\n\t\t\tcontactId, \r\n\t\t\tLeadAddressType, \r\n\t\t\tLeadCity, \r\n\t\t\tLeadRegion, \r\n\t\t\tLeadCountry, \r\n\t\t\tLeadZip, \r\n\t\t\tLeadAddress)) {\r\n\t\treturn;\r\n\t}\r\n\t//Create contact address from Lead\r\n\tvar contactAddress = new ContactAddress(UserConnection);\r\n\tcontactAddress.SetDefColumnValues();\r\n\tSetValue(contactAddress, \"AddressTypeId\", LeadAddressType);\r\n\tSetValue(contactAddress, \"CityId\", LeadCity);\r\n\tSetValue(contactAddress, \"RegionId\", LeadRegion);\r\n\tSetValue(contactAddress, \"CountryId\", LeadCountry);\r\n\tSetValue(contactAddress, \"Zip\", LeadZip);\r\n\tSetValue(contactAddress, \"Address\", LeadAddress);\r\n\tcontactAddress.ContactId = contactId;\r\n\tcontactAddress.Save(false);\r\n}\r\n\r\n\r\npublic virtual void AddAccountAddress(Guid accountId) {\r\n\tif (LeadAddressType.IsEmpty() && \r\n\t\t\tLeadCity.IsEmpty() && \r\n\t\t\tLeadRegion.IsEmpty() && \r\n\t\t\tLeadCountry.IsEmpty() && \r\n\t\t\tString.IsNullOrEmpty(LeadZip) && \r\n\t\t\tString.IsNullOrEmpty(LeadAddress)) {\r\n\t\treturn;\r\n\t}\r\n\t//Check is address already exists\r\n\tif (IsAddressExists(\r\n\t\t\t\"AccountAddress\", \r\n\t\t\t\"AccountId\", \r\n\t\t\taccountId, \r\n\t\t\tLeadAddressType, \r\n\t\t\tLeadCity, \r\n\t\t\tLeadRegion, \r\n\t\t\tLeadCountry, \r\n\t\t\tLeadZip, \r\n\t\t\tLeadAddress)) {\r\n\t\treturn;\r\n\t}\r\n\t//Create account address from Lead\r\n\tvar accountAddress = new AccountAddress(UserConnection);\r\n\taccountAddress.SetDefColumnValues();\r\n\tSetValue(accountAddress, \"AddressTypeId\", LeadAddressType);\r\n\tSetValue(accountAddress, \"CityId\", LeadCity);\r\n\tSetValue(accountAddress, \"RegionId\", LeadRegion);\r\n\tSetValue(accountAddress, \"CountryId\", LeadCountry);\r\n\tSetValue(accountAddress, \"Zip\", LeadZip);\r\n\tSetValue(accountAddress, \"Address\", LeadAddress);\r\n\taccountAddress.AccountId = accountId;\r\n\taccountAddress.Save(false);\r\n}\r\n\r\n\r\npublic virtual bool IsAddressExists(string addressTableName, string relationColumnName, Guid relationColumnValue, Guid addressType, Guid addressCity, Guid addressRegion, Guid addressCountry, string zipValue, string addressValue) {\r\n\tvar addressSelect = new Select(UserConnection)\r\n\t\t.Column(\"Zip\")\r\n\t\t.Column(\"Address\")\r\n\t\t.From(addressTableName)\r\n\t\t.Where(relationColumnName).IsEqual(Column.Parameter(relationColumnValue)) as Select;\r\n\t\r\n\tif (!addressType.IsEmpty()) {\r\n\t\taddressSelect.And(\"AddressTypeId\").IsEqual(Column.Parameter(addressType));\r\n\t}\r\n\tif (!addressCity.IsEmpty()) {\r\n\t\taddressSelect.And(\"CityId\").IsEqual(Column.Parameter(addressCity));\r\n\t}\r\n\tif (!addressRegion.IsEmpty()) {\r\n\t\taddressSelect.And(\"RegionId\").IsEqual(Column.Parameter(addressRegion));\r\n\t}\r\n\tif (!addressCountry.IsEmpty()) {\r\n\t\taddressSelect.And(\"CountryId\").IsEqual(Column.Parameter(addressCountry));\r\n\t}\r\n\tbool compareZip = false;\r\n\tif (!String.IsNullOrEmpty(zipValue)) {\r\n\t\tzipValue = zipValue.ToLower().Trim();\r\n\t\tif (!String.IsNullOrEmpty(zipValue)) {\r\n\t\t\tcompareZip = true;\r\n\t\t}\r\n\t}\r\n\tbool compareAddress = false;\r\n\tif (!String.IsNullOrEmpty(addressValue)) {\r\n\t\taddressValue = addressValue.ToLower().Trim();\r\n\t\tif (!String.IsNullOrEmpty(addressValue)) {\r\n\t\t\tcompareAddress = true;\r\n\t\t}\r\n\t}\r\n\tusing (DBExecutor dbExecutor = UserConnection.EnsureDBConnection()) {\r\n\t\tusing (IDataReader reader = addressSelect.ExecuteReader(dbExecutor)) {\r\n\t\t\t//Test each address.\r\n\t\t\twhile (reader.Read()) {\r\n\t\t\t\tstring zip = reader.GetString(0).ToLower().Trim();\r\n\t\t\t\tstring address = reader.GetString(1).ToLower().Trim();\r\n\t\t\t\tbool zipMatch = false;\r\n\t\t\t\tbool addressMatch = false;\r\n\t\t\t\t//Quit when address is math\r\n\t\t\t\tif (compareZip && StringUtilities.EqualsIgnoreCase(zip, zipValue)) {\r\n\t\t\t\t\tzipMatch = true;\r\n\t\t\t\t}\r\n\t\t\t\tzipMatch = zipMatch == compareZip;\r\n\t\t\t\tif (compareAddress && StringUtilities.EqualsIgnoreCase(address, addressValue)) {\r\n\t\t\t\t\taddressMatch = true;\r\n\t\t\t\t}\r\n\t\t\t\taddressMatch = addressMatch == compareAddress;\r\n\t\t\t\tif (zipMatch && addressMatch) {\r\n\t\t\t\t\treturn true;\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n\treturn false;\r\n}\r\n\r\n",
+      "BK34": "en-US",
+      "Labels": [
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaLabel",
+          "UId": "15ce0e14-1896-4cb3-a53d-6f7c70a874a8",
+          "A2": "QualifiedContactExistsSequenceFlow_label1",
+          "A3": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "A4": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+          "ParentUId": "644d1a44-d831-44e0-982d-8da2dc9c15bf",
+          "X": 229,
+          "Y": -88
+        }
+      ],
+      "BK24": []
+    }
+  }
+}

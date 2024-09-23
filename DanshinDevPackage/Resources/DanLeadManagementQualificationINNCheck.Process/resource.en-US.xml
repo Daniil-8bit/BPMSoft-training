@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.ChangeAccountScriptTask.Caption" Value="Create or update account according to qualification result" />
+			<Item Name="BaseElements.ChangeContactAccount.Caption" Value="Link contact to account" />
+			<Item Name="BaseElements.ChangeContactAccount.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.ChangeContactAccount.Parameters.EntitySchemaUId.Caption" Value="Object" />
+			<Item Name="BaseElements.ChangeContactAccount.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
+			<Item Name="BaseElements.ChangeContactAccount.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeContactAccount.Parameters.RecordColumnValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.ChangeContactScriptTask.Caption" Value="Create or update contact according to qualification result" />
+			<Item Name="BaseElements.ChangeLeadIsQualificationPassedTrue.Caption" Value="Is Qualification Passed - true" />
+			<Item Name="BaseElements.ChangeLeadIsQualificationPassedTrue.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.ChangeLeadIsQualificationPassedTrue.Parameters.EntitySchemaUId.Caption" Value="Object" />
+			<Item Name="BaseElements.ChangeLeadIsQualificationPassedTrue.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
+			<Item Name="BaseElements.ChangeLeadIsQualificationPassedTrue.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeLeadIsQualificationPassedTrue.Parameters.RecordColumnValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.ChangeLeadStageHandoffToSale.Caption" Value="Lead stage - handoff to sale" />
+			<Item Name="BaseElements.ChangeLeadStageHandoffToSale.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.ChangeLeadStageHandoffToSale.Parameters.EntitySchemaUId.Caption" Value="Object" />
+			<Item Name="BaseElements.ChangeLeadStageHandoffToSale.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
+			<Item Name="BaseElements.ChangeLeadStageHandoffToSale.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeLeadStageHandoffToSale.Parameters.RecordColumnValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.ConditionalFlow3.Caption" Value="Yes" />
+			<Item Name="BaseElements.ConditionalFlowLeadUndefined.Caption" Value="No" />
+			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="Yes" />
+			<Item Name="BaseElements.ExclusiveGatewayAccountConnection.Caption" Value="Link contact to account?" />
+			<Item Name="BaseElements.ExclusiveGatewayIsLeadSet.Caption" Value="Is lead specified?" />
+			<Item Name="BaseElements.ExclusiveGatewayIsQualificationPassed.Caption" Value="Is qualification passed?" />
+			<Item Name="BaseElements.ExclusiveGatewayQualifiedAccount.Caption" Value="Account exists?" />
+			<Item Name="BaseElements.LinkAccountToLead.Caption" Value="Link account to Lead" />
+			<Item Name="BaseElements.LinkAccountToLead.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.LinkAccountToLead.Parameters.EntitySchemaUId.Caption" Value="Object" />
+			<Item Name="BaseElements.LinkAccountToLead.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
+			<Item Name="BaseElements.LinkAccountToLead.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.LinkAccountToLead.Parameters.RecordColumnValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.LinkContactToLead.Caption" Value="Link contact to Lead" />
+			<Item Name="BaseElements.LinkContactToLead.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.LinkContactToLead.Parameters.EntitySchemaUId.Caption" Value="Object" />
+			<Item Name="BaseElements.LinkContactToLead.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
+			<Item Name="BaseElements.LinkContactToLead.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.LinkContactToLead.Parameters.RecordColumnValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.QualifiedAccountExistsSequenceFlow.Caption" Value="Yes" />
+			<Item Name="BaseElements.QualifiedContactExistsSequenceFlow.Caption" Value="Contact exists" />
+			<Item Name="BaseElements.ReadLeadData.Caption" Value="Read lead data" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ConsiderTimeInFilter.DisplayValue" Value="false" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.FunctionType.DisplayValue" Value="0" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.ReadLeadData.Parameters.ResultType.DisplayValue" Value="0" />
+			<Item Name="BaseElements.ReadSystemSettings.Caption" Value="Read system settings" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ConsiderTimeInFilter.DisplayValue" Value="false" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.FunctionType.DisplayValue" Value="0" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.ReadSystemSettings.Parameters.ResultType.DisplayValue" Value="0" />
+			<Item Name="BaseElements.TerminateQualified.Caption" Value="Lead is qualified" />
+			<Item Name="Caption" Value="Lead qualification 1.0.0" />
+			<Item Name="LaneSets.LeadQualificationProcess.Caption" Value="Lead qualification process" />
+			<Item Name="LaneSets.LeadQualificationProcess.Lanes.LeadQualification.Caption" Value="Lead qualification" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#[PropertyValue:Caption]#]" />
+			<Item Name="Parameters.AccountId.Caption" Value="Qualified as account" />
+			<Item Name="Parameters.ContactId.Caption" Value="Qualified as contact" />
+			<Item Name="Parameters.CreateAccountOnQualification.Caption" Value="Create new account on lead qualification" />
+			<Item Name="Parameters.CreateAccountOnQualification.DisplayValue" Value="[#Read system settings.First item of resulting collection.Logic value#]" />
+			<Item Name="Parameters.LeadAccountCategory.Caption" Value="LeadAccountCategory" />
+			<Item Name="Parameters.LeadAccountCategory.DisplayValue" Value="[#Read lead data.First item of resulting collection.Category#]" />
+			<Item Name="Parameters.LeadAccountId.Caption" Value="LeadAccountId" />
+			<Item Name="Parameters.LeadAccountId.DisplayValue" Value="[#Read lead data.First item of resulting collection.Account#]" />
+			<Item Name="Parameters.LeadAccountName.Caption" Value="LeadAccountName" />
+			<Item Name="Parameters.LeadAccountName.DisplayValue" Value="[#Read lead data.First item of resulting collection.Account name#]" />
+			<Item Name="Parameters.LeadAddress.Caption" Value="LeadAddress" />
+			<Item Name="Parameters.LeadAddress.DisplayValue" Value="[#Read lead data.First item of resulting collection.Street#]" />
+			<Item Name="Parameters.LeadAddressType.Caption" Value="LeadAddressType" />
+			<Item Name="Parameters.LeadAddressType.DisplayValue" Value="[#Read lead data.First item of resulting collection.Address type#]" />
+			<Item Name="Parameters.LeadAnnualRevenue.Caption" Value="LeadAnnualRevenue" />
+			<Item Name="Parameters.LeadAnnualRevenue.DisplayValue" Value="[#Read lead data.First item of resulting collection.Annual revenue#]" />
+			<Item Name="Parameters.LeadBusinessPhone.Caption" Value="LeadBusinessPhone" />
+			<Item Name="Parameters.LeadBusinessPhone.DisplayValue" Value="[#Read lead data.First item of resulting collection.Business phone#]" />
+			<Item Name="Parameters.LeadCity.Caption" Value="LeadCity" />
+			<Item Name="Parameters.LeadCity.DisplayValue" Value="[#Read lead data.First item of resulting collection.City#]" />
+			<Item Name="Parameters.LeadContactId.Caption" Value="LeadContactId" />
+			<Item Name="Parameters.LeadContactId.DisplayValue" Value="[#Read lead data.First item of resulting collection.Contact#]" />
+			<Item Name="Parameters.LeadContactName.Caption" Value="LeadContactName" />
+			<Item Name="Parameters.LeadContactName.DisplayValue" Value="[#Read lead data.First item of resulting collection.Contact name#]" />
+			<Item Name="Parameters.LeadCountry.Caption" Value="LeadCountry" />
+			<Item Name="Parameters.LeadCountry.DisplayValue" Value="[#Read lead data.First item of resulting collection.Country#]" />
+			<Item Name="Parameters.LeadDear.Caption" Value="LeadDear" />
+			<Item Name="Parameters.LeadDear.DisplayValue" Value="[#Read lead data.First item of resulting collection.Recipient's name#]" />
+			<Item Name="Parameters.LeadDecisionRole.Caption" Value="LeadDecisionRole" />
+			<Item Name="Parameters.LeadDecisionRole.DisplayValue" Value="[#Read lead data.First item of resulting collection.Role#]" />
+			<Item Name="Parameters.LeadDepartment.Caption" Value="LeadDepartment" />
+			<Item Name="Parameters.LeadDepartment.DisplayValue" Value="[#Read lead data.First item of resulting collection.Department#]" />
+			<Item Name="Parameters.LeadEmail.Caption" Value="LeadEmail" />
+			<Item Name="Parameters.LeadEmail.DisplayValue" Value="[#Read lead data.First item of resulting collection.Email#]" />
+			<Item Name="Parameters.LeadEmployeesNumber.Caption" Value="LeadEmployeesNumber" />
+			<Item Name="Parameters.LeadEmployeesNumber.DisplayValue" Value="[#Read lead data.First item of resulting collection.No. of employees#]" />
+			<Item Name="Parameters.LeadFax.Caption" Value="LeadFax" />
+			<Item Name="Parameters.LeadFax.DisplayValue" Value="[#Read lead data.First item of resulting collection.Fax#]" />
+			<Item Name="Parameters.LeadFullJobTitle.Caption" Value="LeadFullJobTitle" />
+			<Item Name="Parameters.LeadFullJobTitle.DisplayValue" Value="[#Read lead data.First item of resulting collection.Full job title#]" />
+			<Item Name="Parameters.LeadGender.Caption" Value="LeadGender" />
+			<Item Name="Parameters.LeadGender.DisplayValue" Value="[#Read lead data.First item of resulting collection.Gender#]" />
+			<Item Name="Parameters.LeadId.Caption" Value="Lead" />
+			<Item Name="Parameters.LeadIndustry.Caption" Value="LeadIndustry" />
+			<Item Name="Parameters.LeadIndustry.DisplayValue" Value="[#Read lead data.First item of resulting collection.Industry#]" />
+			<Item Name="Parameters.LeadJob.Caption" Value="LeadJob" />
+			<Item Name="Parameters.LeadJob.DisplayValue" Value="[#Read lead data.First item of resulting collection.Job title#]" />
+			<Item Name="Parameters.LeadMobilePhone.Caption" Value="LeadMobilePhone" />
+			<Item Name="Parameters.LeadMobilePhone.DisplayValue" Value="[#Read lead data.First item of resulting collection.Mobile phone#]" />
+			<Item Name="Parameters.LeadOwner.Caption" Value="LeadOwner" />
+			<Item Name="Parameters.LeadOwner.DisplayValue" Value="[#Read lead data.First item of resulting collection.Owner#]" />
+			<Item Name="Parameters.LeadOwnership.Caption" Value="LeadOwnership" />
+			<Item Name="Parameters.LeadOwnership.DisplayValue" Value="[#Read lead data.First item of resulting collection.Business entity#]" />
+			<Item Name="Parameters.LeadQualificationPassed.Caption" Value="LeadQualificationPassed" />
+			<Item Name="Parameters.LeadQualificationPassed.DisplayValue" Value="[#Read lead data.First item of resulting collection.Qualification passed#]" />
+			<Item Name="Parameters.LeadRegion.Caption" Value="LeadRegion" />
+			<Item Name="Parameters.LeadRegion.DisplayValue" Value="[#Read lead data.First item of resulting collection.State/province#]" />
+			<Item Name="Parameters.LeadSalutation.Caption" Value="LeadSalutation" />
+			<Item Name="Parameters.LeadSalutation.DisplayValue" Value="[#Read lead data.First item of resulting collection.Salutation#]" />
+			<Item Name="Parameters.LeadWebsite.Caption" Value="LeadWebsite" />
+			<Item Name="Parameters.LeadWebsite.DisplayValue" Value="[#Read lead data.First item of resulting collection.Web#]" />
+			<Item Name="Parameters.LeadZip.Caption" Value="LeadZip" />
+			<Item Name="Parameters.LeadZip.DisplayValue" Value="[#Read lead data.First item of resulting collection.ZIP/postal code#]" />
+		</Items>
+	</Group>
+</Resources>

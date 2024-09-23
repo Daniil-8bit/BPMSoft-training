@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+OtwhQBLNP/WLAL3Tge1Hv4IyMTjqprPiF4iX3aUq/yx1CPGZn7xAi38CgGowgGJo+Ix9SBTUaHH+IsYKS273g==",
+  "success": true,
+  "projectFilePath": "/etc/dev_dan_bpmsoft/BPMSoft.Configuration/Pkg/OpenIdAuth/Files/OpenIdAuth.csproj",
+  "expectedPackageFiles": [
+    "/home/devdanuser/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/devdanuser/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "86ae7b8a-4ad6-4624-bcf2-839bff3b9870",
+    "Name": "OpportunityPageV2",
+    "ModifiedOnUtc": "\/Date(1726471877000)\/",
+    "Parent": {
+      "UId": "df249c13-df7a-48d2-b128-85183c4a0e10",
+      "Name": "OpportunityPageV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Страница редактирования продажи ",
+    "DependsOn": []
+  }
+}

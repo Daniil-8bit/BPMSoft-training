@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = OpenIdAuth
+build_property.ProjectDir = /etc/dev_dan_bpmsoft/BPMSoft.Configuration/Pkg/OpenIdAuth/Files/

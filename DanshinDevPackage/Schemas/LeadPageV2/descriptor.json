@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "b5400ba2-e491-4abc-b1d5-c49cff051d71",
+    "Name": "LeadPageV2",
+    "ModifiedOnUtc": "\/Date(1726472431000)\/",
+    "Parent": {
+      "UId": "ddf8941f-92f3-4b10-9f59-faab18c12f46",
+      "Name": "LeadPageV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Страница редактирования лида",
+    "DependsOn": []
+  }
+}

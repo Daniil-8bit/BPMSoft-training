@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "2c30bbc3-a44b-4192-aa18-9d4f4ae7ed25",
+    "Name": "DanLeadManagementQualificationINNCheck",
+    "ModifiedOnUtc": "\/Date(1726585185000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Квалификация лида 2.0.0",
+    "DependsOn": []
+  }
+}

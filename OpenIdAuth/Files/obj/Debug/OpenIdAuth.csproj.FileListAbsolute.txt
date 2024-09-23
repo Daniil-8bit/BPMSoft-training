@@ -1,0 +1,10 @@
+C:\build\5423\TSBpm\Src\Lib\BPMSoft.WebHost\BPMSoft.Configuration\Pkg\OpenIdAuth\Files\Bin\netstandard\OpenIdAuth.deps.json
+C:\build\5423\TSBpm\Src\Lib\BPMSoft.WebHost\BPMSoft.Configuration\Pkg\OpenIdAuth\Files\Bin\netstandard\OpenIdAuth.dll
+C:\build\5423\TSBpm\Src\Lib\BPMSoft.WebHost\BPMSoft.Configuration\Pkg\OpenIdAuth\Files\Bin\netstandard\OpenIdAuth.pdb
+C:\build\5423\TSBpm\Src\Lib\BPMSoft.WebHost\BPMSoft.Configuration\Pkg\OpenIdAuth\Files\obj\Debug\OpenIdAuth.csproj.AssemblyReference.cache
+C:\build\5423\TSBpm\Src\Lib\BPMSoft.WebHost\BPMSoft.Configuration\Pkg\OpenIdAuth\Files\obj\Debug\OpenIdAuth.GeneratedMSBuildEditorConfig.editorconfig
+C:\build\5423\TSBpm\Src\Lib\BPMSoft.WebHost\BPMSoft.Configuration\Pkg\OpenIdAuth\Files\obj\Debug\OpenIdAuth.AssemblyInfoInputs.cache
+C:\build\5423\TSBpm\Src\Lib\BPMSoft.WebHost\BPMSoft.Configuration\Pkg\OpenIdAuth\Files\obj\Debug\OpenIdAuth.AssemblyInfo.cs
+C:\build\5423\TSBpm\Src\Lib\BPMSoft.WebHost\BPMSoft.Configuration\Pkg\OpenIdAuth\Files\obj\Debug\OpenIdAuth.csproj.CoreCompileInputs.cache
+C:\build\5423\TSBpm\Src\Lib\BPMSoft.WebHost\BPMSoft.Configuration\Pkg\OpenIdAuth\Files\obj\Debug\OpenIdAuth.dll
+C:\build\5423\TSBpm\Src\Lib\BPMSoft.WebHost\BPMSoft.Configuration\Pkg\OpenIdAuth\Files\obj\Debug\OpenIdAuth.pdb
