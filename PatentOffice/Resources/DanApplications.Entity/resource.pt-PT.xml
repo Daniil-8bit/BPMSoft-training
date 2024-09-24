@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="pt-PT">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.DanName.Caption" Value="Nome" />
+			<Item Name="Columns.DanNotes.Caption" Value="Notas" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "935592de-738a-4314-a2d2-f5520910141a",
+    "Name": "DanApplicationTypes",
+    "ModifiedOnUtc": "\/Date(1727172997000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Типы заявок на изобретения",
+    "DependsOn": []
+  }
+}

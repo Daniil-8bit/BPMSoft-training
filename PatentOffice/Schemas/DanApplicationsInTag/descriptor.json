@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "1add532b-7481-4fb1-bf84-3fb5b0a68f91",
+    "Name": "DanApplicationsInTag",
+    "ModifiedOnUtc": "\/Date(1727173040000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег в записи раздела Заявки",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Заявители" />
+			<Item Name="Columns.DanApplicantMiddlename.Caption" Value="Отчетство" />
+			<Item Name="Columns.DanApplicantName.Caption" Value="Имя" />
+			<Item Name="Columns.DanApplicantSurname.Caption" Value="Фамилия" />
+			<Item Name="Columns.DanName.Caption" Value="Название" />
+			<Item Name="Columns.DanNotes.Caption" Value="Заметки" />
+			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
+		</Items>
+	</Group>
+</Resources>

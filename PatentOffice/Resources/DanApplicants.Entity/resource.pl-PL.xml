@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="pl-PL">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.DanName.Caption" Value="Nazwa" />
+			<Item Name="Columns.DanNotes.Caption" Value="Notatki" />
+		</Items>
+	</Group>
+</Resources>

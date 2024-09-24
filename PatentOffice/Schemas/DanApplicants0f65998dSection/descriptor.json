@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "72fc4f4c-a827-4c30-af3b-88205cb40179",
+    "Name": "DanApplicants0f65998dSection",
+    "ModifiedOnUtc": "\/Date(1727172542000)\/",
+    "Parent": {
+      "UId": "7912fb69-4fee-429f-8b23-93943c35d66d",
+      "Name": "BaseSectionV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема раздела: \"Заявители\"",
+    "DependsOn": []
+  }
+}

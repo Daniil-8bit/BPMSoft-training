@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "97a37c81-927e-4ab8-8ed7-caed1df210d6",
+    "Name": "DanApplicationsFolder",
+    "ModifiedOnUtc": "\/Date(1727173018000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Группа Заявки",
+    "DependsOn": []
+  }
+}

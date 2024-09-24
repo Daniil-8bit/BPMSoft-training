@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "f722e337-e19f-4a6b-8bc2-adadc11c69e8",
+    "Name": "DanApplicants1Page",
+    "ModifiedOnUtc": "\/Date(1727172551000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Страница редактирования: \"Заявители\"",
+    "DependsOn": []
+  }
+}

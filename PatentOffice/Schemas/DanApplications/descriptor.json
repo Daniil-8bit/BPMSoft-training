@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "df8f010b-11b7-46ce-bb7e-0d4d573463ac",
+    "Name": "DanApplications",
+    "ModifiedOnUtc": "\/Date(1727173004000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Заявки",
+    "DependsOn": []
+  }
+}
