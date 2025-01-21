@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "b2cf0357-2632-447c-8816-646c7d096d1d",
+    "Name": "DanApplicationStatuses",
+    "ModifiedOnUtc": "\/Date(1727339215000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Статусы заявок на изобретения"
+  }
+}

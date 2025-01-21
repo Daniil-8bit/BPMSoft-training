@@ -1,0 +1,16 @@
+﻿{
+  "Descriptor": {
+    "UId": "51be1f9e-bd54-d30e-f033-1c7160da0fac",
+    "Name": "BpmSubstitutionMechanism",
+    "BPMSoftVersion": "1.4.1",
+    "ModifiedOnUtc": "\/Date(1737380167000)\/",
+    "Maintainer": "DanshinDaniil",
+    "DependsOn": [
+      {
+        "UId": "2fabaf6c-0f92-4530-aef8-40345c021da2",
+        "PackageVersion": "1.0.0",
+        "Name": "ProductCore"
+      }
+    ]
+  }
+}

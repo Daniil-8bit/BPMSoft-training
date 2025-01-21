@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "dc739fc1-2297-472b-b323-8346eaf71651",
+    "Name": "DanBpmAmountService",
+    "ModifiedOnUtc": "\/Date(1737383419000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "BpmAmountService",
+    "DependsOn": []
+  }
+}

@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = OpenIdAuth
 build_property.ProjectDir = /etc/dev_dan_bpmsoft/BPMSoft.Configuration/Pkg/OpenIdAuth/Files/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

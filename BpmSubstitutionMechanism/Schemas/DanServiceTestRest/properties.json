@@ -1,0 +1,7 @@
+﻿{
+  "Properties": {
+    "BaseUri": "http://10.50.3.15:9090",
+    "CreatedInVersion": "1.4.1.2",
+    "Type": "Rest"
+  }
+}

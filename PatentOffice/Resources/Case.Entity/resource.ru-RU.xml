@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.DanCaseColorValue.Caption" Value="Значение цвета" />
+			<Item Name="Columns.DanCaseNumberValue.Caption" Value="Числовое значение" />
+			<Item Name="Columns.DanCaseTextValue.Caption" Value="Текстовый номер заявки" />
+			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
+		</Items>
+	</Group>
+</Resources>

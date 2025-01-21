@@ -1,0 +1,63 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ServiceSchemaManager",
+      "UId": "221d6552-4bda-4c70-b4c4-3047bb6cb7f1",
+      "A2": "DanServiceTestRest",
+      "A5": "e7001b2b-52d9-4c4b-bf68-130fa3ba1706",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "51be1f9e-bd54-d30e-f033-1c7160da0fac",
+      "B8": "1.4.1.2",
+      "IQ1": "http://10.50.3.15:9090",
+      "IQ2": 1,
+      "IQ7": [],
+      "IQ4": [
+        {
+          "UId": "e4d6bd88-431e-42e3-8089-3fc81f4b8c00",
+          "A2": "DanTestRestMethod",
+          "A3": "221d6552-4bda-4c70-b4c4-3047bb6cb7f1",
+          "A4": "221d6552-4bda-4c70-b4c4-3047bb6cb7f1",
+          "IR3": 5000,
+          "IR5": "null",
+          "IR1": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "ab313627-b823-4f23-817d-478bff02d7f5",
+                "A2": "DanFNumber",
+                "IU1": "firstNumber",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 3,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "f9708a8f-5bb5-49b2-a85d-cfaf7132d93e",
+                "A2": "DanSNumber",
+                "IU1": "secondNumber",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 3,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              }
+            ],
+            "IT2": 1,
+            "IT1": "/rest/DanBpmAmountService/GetAmount"
+          },
+          "IR2": {
+            "IW2": 1,
+            "IW1": []
+          }
+        }
+      ]
+    }
+  }
+}

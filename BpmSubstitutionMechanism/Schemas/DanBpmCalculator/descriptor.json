@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "a777be0d-d6a8-4093-97e7-00c9cb3adec6",
+    "Name": "DanBpmCalculator",
+    "ModifiedOnUtc": "\/Date(1737383242000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Новый калькулятор",
+    "DependsOn": []
+  }
+}

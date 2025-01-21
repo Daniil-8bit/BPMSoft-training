@@ -2,13 +2,12 @@
   "Descriptor": {
     "UId": "7ad23793-1d36-492f-9369-5d1bee3cb7d8",
     "Name": "DanApplicants",
-    "ModifiedOnUtc": "\/Date(1727172557000)\/",
+    "ModifiedOnUtc": "\/Date(1727265590000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Заявители",
-    "DependsOn": []
+    "Caption": "Заявители"
   }
 }

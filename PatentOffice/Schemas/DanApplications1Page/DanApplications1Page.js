@@ -37,18 +37,18 @@ define("DanApplications1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "STRING7ee7ded0-f679-4b26-ba8c-00af164e4cee",
+				"name": "LOOKUP12421223-e1db-45ad-b696-960595f6d058",
 				"values": {
 					"layout": {
-						"colSpan": 24,
-						"rowSpan": 3,
-						"column": 0,
-						"row": 2,
+						"colSpan": 11,
+						"rowSpan": 1,
+						"column": 13,
+						"row": 0,
 						"layoutName": "Header"
 					},
-					"bindTo": "DanApplicationDescription",
+					"bindTo": "DanApplicationApplicant",
 					"enabled": true,
-					"contentType": 0
+					"contentType": 5
 				},
 				"parentName": "Header",
 				"propertyName": "items",
@@ -72,6 +72,44 @@ define("DanApplications1Page", [], function() {
 				"parentName": "Header",
 				"propertyName": "items",
 				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "STRING7ee7ded0-f679-4b26-ba8c-00af164e4cee",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 3,
+						"column": 0,
+						"row": 2,
+						"layoutName": "Header"
+					},
+					"bindTo": "DanApplicationDescription",
+					"enabled": true,
+					"contentType": 0
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "LOOKUP853a798e-d1c9-444a-af82-8f51cd0fbd4c",
+				"values": {
+					"layout": {
+						"colSpan": 11,
+						"rowSpan": 1,
+						"column": 13,
+						"row": 1,
+						"layoutName": "Header"
+					},
+					"bindTo": "DanApplicationStatus",
+					"enabled": true,
+					"contentType": 3
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 4
 			},
 			{
 				"operation": "insert",

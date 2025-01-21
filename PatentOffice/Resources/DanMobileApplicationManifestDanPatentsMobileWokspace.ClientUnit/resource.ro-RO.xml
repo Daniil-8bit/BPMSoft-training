@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ro-RO">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="DanMobileApplicationManifestDanPatentsMobileWokspace" />
+			<Item Name="LocalizableStrings.AccountSectionTitle.Value" Value="Контрагенты" />
+			<Item Name="LocalizableStrings.ActivitySectionTitle.Value" Value="Активности" />
+			<Item Name="LocalizableStrings.ContactSectionTitle.Value" Value="Контакты" />
+			<Item Name="LocalizableStrings.DanApplicantsSectionTitle.Value" Value="Заявители" />
+			<Item Name="LocalizableStrings.DanApplicationsSectionTitle.Value" Value="Заявки" />
+			<Item Name="LocalizableStrings.SocialMessageSectionTitle.Value" Value="Лента" />
+		</Items>
+	</Group>
+</Resources>

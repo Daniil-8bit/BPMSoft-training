@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "9d6d078f-2813-4042-87b0-ba2d789d6dc0",
+    "Name": "DanBaseCalculator",
+    "ModifiedOnUtc": "\/Date(1737382702000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Базовый калькулятор",
+    "DependsOn": []
+  }
+}

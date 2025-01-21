@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Test service" />
+			<Item Name="ServiceMethods.DanTestRestMethod.Caption" Value="DanBpmAmountService" />
+			<Item Name="ServiceMethods.DanTestRestMethod.Request.Parameters.DanFNumber.Caption" Value="FirstNumber" />
+			<Item Name="ServiceMethods.DanTestRestMethod.Request.Parameters.DanSNumber.Caption" Value="SecondNumber" />
+		</Items>
+	</Group>
+</Resources>

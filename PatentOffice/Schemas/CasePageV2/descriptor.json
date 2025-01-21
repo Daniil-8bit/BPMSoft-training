@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "2d2e2409-e4bb-4762-a7dd-69e2cf0004ac",
+    "Name": "CasePageV2",
+    "ModifiedOnUtc": "\/Date(1737377678000)\/",
+    "Parent": {
+      "UId": "ca49777f-a40d-416d-8a74-6fac2f8bcf1e",
+      "Name": "CasePageV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Page schema - Case"
+  }
+}

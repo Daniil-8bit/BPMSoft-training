@@ -1,0 +1,66 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ClientUnitSchemaManager",
+      "UId": "8580e799-f878-4ce7-a99c-8b1bc2590457",
+      "A2": "DanMobileApplicationManifestDanPatentsMobileWokspace",
+      "A5": "48a420ae-6801-4fcc-9dac-dbe13653d4a9",
+      "B1": [],
+      "B2": [
+        {
+          "UId": "2b7b9197-7271-4417-8013-43224a32b1a8",
+          "A2": "ContactSectionTitle",
+          "A3": "8580e799-f878-4ce7-a99c-8b1bc2590457",
+          "A4": "8580e799-f878-4ce7-a99c-8b1bc2590457",
+          "A5": "48a420ae-6801-4fcc-9dac-dbe13653d4a9"
+        },
+        {
+          "UId": "1e368099-9e76-40d3-9caa-3b51293f6017",
+          "A2": "AccountSectionTitle",
+          "A3": "8580e799-f878-4ce7-a99c-8b1bc2590457",
+          "A4": "8580e799-f878-4ce7-a99c-8b1bc2590457",
+          "A5": "48a420ae-6801-4fcc-9dac-dbe13653d4a9"
+        },
+        {
+          "UId": "68e95d4c-3569-459e-85ef-dff9a54622ce",
+          "A2": "ActivitySectionTitle",
+          "A3": "8580e799-f878-4ce7-a99c-8b1bc2590457",
+          "A4": "8580e799-f878-4ce7-a99c-8b1bc2590457",
+          "A5": "48a420ae-6801-4fcc-9dac-dbe13653d4a9"
+        },
+        {
+          "UId": "2ae41459-63b9-4361-9218-0f2bfc1e6125",
+          "A2": "SocialMessageSectionTitle",
+          "A3": "8580e799-f878-4ce7-a99c-8b1bc2590457",
+          "A4": "8580e799-f878-4ce7-a99c-8b1bc2590457",
+          "A5": "48a420ae-6801-4fcc-9dac-dbe13653d4a9"
+        },
+        {
+          "UId": "5c4a8fbb-8274-4711-b72d-5b01bee545c6",
+          "A2": "DanApplicantsSectionTitle",
+          "A3": "8580e799-f878-4ce7-a99c-8b1bc2590457",
+          "A4": "8580e799-f878-4ce7-a99c-8b1bc2590457",
+          "A5": "48a420ae-6801-4fcc-9dac-dbe13653d4a9"
+        },
+        {
+          "UId": "d4348849-8f65-4874-b839-eea408b61895",
+          "A2": "DanApplicationsSectionTitle",
+          "A3": "8580e799-f878-4ce7-a99c-8b1bc2590457",
+          "A4": "8580e799-f878-4ce7-a99c-8b1bc2590457",
+          "A5": "48a420ae-6801-4fcc-9dac-dbe13653d4a9"
+        }
+      ],
+      "B3": [],
+      "B6": "785e8cf8-1df0-d621-524b-a1f98fe4261d",
+      "B8": "1.4.1.2",
+      "HD1": "50e3acc0-26fc-4237-a095-849a1d534bd3",
+      "HD6": "null",
+      "HD5": [],
+      "HD7": [],
+      "HD8": [],
+      "HD11": [],
+      "HD20": [],
+      "HD21": []
+    }
+  }
+}

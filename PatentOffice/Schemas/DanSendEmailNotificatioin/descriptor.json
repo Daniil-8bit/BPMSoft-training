@@ -1,0 +1,9 @@
+﻿{
+  "Descriptor": {
+    "UId": "11fc3173-1f1f-4563-97c9-bbf113d316f5",
+    "Name": "DanSendEmailNotificatioin",
+    "ModifiedOnUtc": "\/Date(1727343569000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Отправка уведомления на email"
+  }
+}

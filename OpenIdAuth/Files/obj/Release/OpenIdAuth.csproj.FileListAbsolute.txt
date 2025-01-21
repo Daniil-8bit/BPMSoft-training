@@ -8,3 +8,4 @@
 /etc/dev_dan_bpmsoft/BPMSoft.Configuration/Pkg/OpenIdAuth/Files/obj/Release/OpenIdAuth.csproj.CoreCompileInputs.cache
 /etc/dev_dan_bpmsoft/BPMSoft.Configuration/Pkg/OpenIdAuth/Files/obj/Release/OpenIdAuth.dll
 /etc/dev_dan_bpmsoft/BPMSoft.Configuration/Pkg/OpenIdAuth/Files/obj/Release/OpenIdAuth.pdb
+/etc/dev_dan_bpmsoft/BPMSoft.Configuration/Pkg/OpenIdAuth/Files/obj/Release/OpenIdAuth.sourcelink.json

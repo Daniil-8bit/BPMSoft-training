@@ -3,8 +3,10 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Заявки" />
+			<Item Name="Columns.DanApplicationApplicant.Caption" Value="Заявитель" />
 			<Item Name="Columns.DanApplicationDescription.Caption" Value="Описание заявки" />
 			<Item Name="Columns.DanApplicationNumber.Caption" Value="Номер заявки" />
+			<Item Name="Columns.DanApplicationStatus.Caption" Value="Статус заявки" />
 			<Item Name="Columns.DanApplicationType.Caption" Value="Тип заявки" />
 			<Item Name="Columns.DanName.Caption" Value="Название" />
 			<Item Name="Columns.DanNotes.Caption" Value="Заметки" />

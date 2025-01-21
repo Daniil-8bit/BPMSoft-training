@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "221d6552-4bda-4c70-b4c4-3047bb6cb7f1",
+    "Name": "DanServiceTestRest",
+    "ModifiedOnUtc": "\/Date(1737384273000)\/",
+    "ManagerName": "ServiceSchemaManager",
+    "Caption": "Test service",
+    "DependsOn": []
+  }
+}

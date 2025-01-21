@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "7400b2c2-1dd5-4c0b-b570-1cee09b84e55",
+    "Name": "DanOpportunityCaseCustom1",
+    "ModifiedOnUtc": "\/Date(1727262229000)\/",
+    "Parent": {
+      "UId": "296e261b-5dae-4102-b030-ac84ae63fe2a",
+      "Name": "OpportunityCase"
+    },
+    "ManagerName": "DcmSchemaManager",
+    "Caption": "Продажа"
+  }
+}

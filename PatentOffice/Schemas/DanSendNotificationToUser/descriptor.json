@@ -1,0 +1,9 @@
+﻿{
+  "Descriptor": {
+    "UId": "8087b4ee-5582-4715-b909-9f3f7eb71979",
+    "Name": "DanSendNotificationToUser",
+    "ModifiedOnUtc": "\/Date(1737374069000)\/",
+    "ManagerName": "ProcessUserTaskSchemaManager",
+    "Caption": "Отправить уведомление пользователю"
+  }
+}

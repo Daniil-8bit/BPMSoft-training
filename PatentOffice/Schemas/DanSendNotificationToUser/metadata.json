@@ -1,0 +1,28 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ProcessUserTaskSchemaManager",
+      "UId": "8087b4ee-5582-4715-b909-9f3f7eb71979",
+      "A2": "DanSendNotificationToUser",
+      "A5": "48a420ae-6801-4fcc-9dac-dbe13653d4a9",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "785e8cf8-1df0-d621-524b-a1f98fe4261d",
+      "B8": "1.4.1.2",
+      "FJ1": [
+        {
+          "BL1": "BPMSoft.Core.Process.ProcessSchemaParameter",
+          "UId": "5f283c17-7e56-5e2a-136d-122a4a88ad69",
+          "A2": "BpmNotificationReceiver",
+          "A3": "8087b4ee-5582-4715-b909-9f3f7eb71979",
+          "A4": "8087b4ee-5582-4715-b909-9f3f7eb71979",
+          "L1": "23018567-a13c-4320-8687-fd6f9e3699bd",
+          "L8": {}
+        }
+      ],
+      "FK12": "#FF7F50",
+      "FK16": true
+    }
+  }
+}

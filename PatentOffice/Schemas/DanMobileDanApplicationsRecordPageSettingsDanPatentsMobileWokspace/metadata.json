@@ -1,0 +1,38 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ClientUnitSchemaManager",
+      "UId": "117ae74a-4f38-4e1f-a69b-37a483afb331",
+      "A2": "DanMobileDanApplicationsRecordPageSettingsDanPatentsMobileWokspace",
+      "A5": "48a420ae-6801-4fcc-9dac-dbe13653d4a9",
+      "B1": [],
+      "B2": [
+        {
+          "UId": "2c94d306-27f3-4f42-a04b-199b973e9fc7",
+          "A2": "SocialMessageDetailCaptionDanApplications_caption",
+          "A3": "117ae74a-4f38-4e1f-a69b-37a483afb331",
+          "A4": "117ae74a-4f38-4e1f-a69b-37a483afb331",
+          "A5": "48a420ae-6801-4fcc-9dac-dbe13653d4a9"
+        },
+        {
+          "UId": "7343ccc6-76e7-407d-9ebc-05592932eaa2",
+          "A2": "primaryColumnSetDanApplications_caption",
+          "A3": "117ae74a-4f38-4e1f-a69b-37a483afb331",
+          "A4": "117ae74a-4f38-4e1f-a69b-37a483afb331",
+          "A5": "48a420ae-6801-4fcc-9dac-dbe13653d4a9"
+        }
+      ],
+      "B3": [],
+      "B6": "785e8cf8-1df0-d621-524b-a1f98fe4261d",
+      "B8": "1.4.1.2",
+      "HD1": "50e3acc0-26fc-4237-a095-849a1d534bd3",
+      "HD6": "null",
+      "HD5": [],
+      "HD7": [],
+      "HD8": [],
+      "HD11": [],
+      "HD20": [],
+      "HD21": []
+    }
+  }
+}

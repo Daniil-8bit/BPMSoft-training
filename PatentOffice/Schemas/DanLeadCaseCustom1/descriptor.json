@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "9e434d85-f939-4e9e-a61e-b91ce5c6f977",
+    "Name": "DanLeadCaseCustom1",
+    "ModifiedOnUtc": "\/Date(1727262931000)\/",
+    "Parent": {
+      "UId": "2d427110-3047-40d5-a7d5-5a55a7512efe",
+      "Name": "LeadCase"
+    },
+    "ManagerName": "DcmSchemaManager",
+    "Caption": "Лид"
+  }
+}
