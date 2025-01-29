@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "d812e630-4461-49b9-bab5-15db5deac7d7",
+    "Name": "OpportunityParticipant",
+    "ModifiedOnUtc": "\/Date(1737631257000)\/",
+    "Parent": {
+      "UId": "0695af13-f66f-4935-a911-4cedc20c5a81",
+      "Name": "OpportunityParticipant"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Участник продажи"
+  }
+}

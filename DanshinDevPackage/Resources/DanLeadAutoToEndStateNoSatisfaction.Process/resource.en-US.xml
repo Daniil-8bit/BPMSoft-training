@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.ChangeDataUserTask2.Caption" Value="Change lead data - Need fulfilled" />
+			<Item Name="BaseElements.ConditionalFlow1.Caption" Value="Closed with positive result" />
+			<Item Name="BaseElements.DefaultSequenceFlow1.Caption" Value="Closed with negative result" />
+			<Item Name="BaseElements.ReadDataUserTask1.Caption" Value="Read opportunity data" />
+			<Item Name="BaseElements.ReadDataUserTask2.Caption" Value="Read stage data" />
+			<Item Name="BaseElements.StartSignal1.Caption" Value="Opportunity is closed" />
+			<Item Name="Caption" Value="Opportunity closure" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.ChangeDataUserTask2.Caption" Value="Изменить данные лидов - Потребность удовлетворена" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Caption" Value="Изменить данные лидов - распределение" />
+			<Item Name="BaseElements.ConditionalFlow1.Caption" Value="Закрыто с положительным результатом" />
+			<Item Name="BaseElements.ConditionalFlow3.Caption" Value="Нет" />
+			<Item Name="BaseElements.ConditionalFlow4.Caption" Value="Да" />
+			<Item Name="BaseElements.DefaultSequenceFlow1.Caption" Value="Закрыто с отрицательным результатом" />
+			<Item Name="BaseElements.ReadDataUserTask1.Caption" Value="Читать данные продажи" />
+			<Item Name="BaseElements.ReadDataUserTask2.Caption" Value="Читать данные стадии" />
+			<Item Name="BaseElements.StartSignal1.Caption" Value="Продажа закрылась" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Caption" Value="Удовлетворена ли потребность/потребности лидов?" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.BranchingDecisions.DisplayValue" Value="{&quot;$type&quot;:&quot;BPMSoft.Core.Process.LocalizableParameterValuesList, BPMSoft.Core&quot;,&quot;$values&quot;:[{&quot;ItemUId&quot;:&quot;0899f09b-c748-4fa2-bec9-78da0aa4f481&quot;,&quot;Id&quot;:{&quot;value&quot;:&quot;a744d544-e50d-457c-a08a-c8006d44713a&quot;},&quot;Name&quot;:{&quot;value&quot;:&quot;Decision0&quot;},&quot;Caption&quot;:{&quot;isLczValue&quot;:true,&quot;value&quot;:&quot;Yes&quot;},&quot;DefChecked&quot;:{&quot;value&quot;:&quot;False&quot;}},{&quot;ItemUId&quot;:&quot;fb70b35b-100e-48e7-8ed3-5c24cb373651&quot;,&quot;Id&quot;:{&quot;value&quot;:&quot;a34c662d-0469-4495-b69f-30ef07598541&quot;},&quot;Name&quot;:{&quot;value&quot;:&quot;Decision1&quot;},&quot;Caption&quot;:{&quot;isLczValue&quot;:true,&quot;value&quot;:&quot;No&quot;},&quot;DefChecked&quot;:{&quot;value&quot;:&quot;False&quot;}}]}" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.BranchingDecisions.Value.0899f09b-c748-4fa2-bec9-78da0aa4f481.Caption" Value="Да" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.BranchingDecisions.Value.fb70b35b-100e-48e7-8ed3-5c24cb373651.Caption" Value="Нет" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.DecisionMode.DisplayValue" Value="0" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Duration.DisplayValue" Value="5" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.DurationPeriod.DisplayValue" Value="минут" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.IsDecisionRequired.DisplayValue" Value="true" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.OwnerId.DisplayValue" Value="[#System variable.Current user contact#]" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Question.DisplayValue" Value="Удовлетворена ли потребность/потребности лидов?" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Question.Value" Value="Удовлетворена ли потребность/потребности лидов?" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Recommendation.DisplayValue" Value="Удовлетворена ли потребность/потребности лидов?" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Recommendation.Value" Value="Удовлетворена ли потребность/потребности лидов?" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ShowExecutionPage.DisplayValue" Value="true" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ShowInScheduler.DisplayValue" Value="false" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.WindowCaption.Value" Value="Answer selection page for item &amp;quot;Is lead need fulfilled?&amp;quot;" />
+			<Item Name="Caption" Value="Закрытие продажи - Копия" />
+		</Items>
+	</Group>
+</Resources>

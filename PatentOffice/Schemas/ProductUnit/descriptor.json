@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "4797802a-6958-4353-9d76-d73b65d2cb08",
+    "Name": "ProductUnit",
+    "ModifiedOnUtc": "\/Date(1737631778000)\/",
+    "Parent": {
+      "UId": "34e3e6a8-32c0-4451-9565-c295a9d8a089",
+      "Name": "ProductUnit"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Единица измерения продукта"
+  }
+}

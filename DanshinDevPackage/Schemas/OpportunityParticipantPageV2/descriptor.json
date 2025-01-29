@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "b221cf76-3863-47de-a965-e377347570e5",
+    "Name": "OpportunityParticipantPageV2",
+    "ModifiedOnUtc": "\/Date(1737631250000)\/",
+    "Parent": {
+      "UId": "38b9e577-152c-4eac-8a68-c296183b690f",
+      "Name": "OpportunityParticipantPageV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "OpportunityParticipantPageV2"
+  }
+}

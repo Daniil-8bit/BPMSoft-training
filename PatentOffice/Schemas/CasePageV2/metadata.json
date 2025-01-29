@@ -204,5 +204,4 @@
 = MetaData.Schema.B8 "1.4.1.2"
 + MetaData.Schema.HD20 []
 + MetaData.Schema.HD21 []
-- MetaData.Schema.HD12
 + MetaData.Schema.B7 true

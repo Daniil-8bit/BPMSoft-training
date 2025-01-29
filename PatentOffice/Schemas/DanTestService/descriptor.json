@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "70c3232a-d900-4cdb-8db0-9b2c19509a8c",
+    "Name": "DanTestService",
+    "ModifiedOnUtc": "\/Date(1737472568000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "DanTestService",
+    "DependsOn": []
+  }
+}

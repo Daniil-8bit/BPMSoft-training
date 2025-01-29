@@ -1,0 +1,9 @@
+﻿{
+  "Descriptor": {
+    "UId": "72e87d0f-05c2-4650-bb8c-7fe8878c0cf0",
+    "Name": "DanLeadAutoToEndStateNoSatisfaction",
+    "ModifiedOnUtc": "\/Date(1737726891000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Закрытие продажи - (Без окна удовлетворенности)"
+  }
+}

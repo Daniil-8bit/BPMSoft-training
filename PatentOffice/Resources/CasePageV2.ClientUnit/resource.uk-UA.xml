@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.AssignToMeCaption.Value" Value="Призначити мені" />
+			<Item Name="LocalizableStrings.ChangeQueueItemDateButtonCaption.Value" Value="Запланувати на дату" />
+			<Item Name="LocalizableStrings.EmailTitleCaption.Value" Value="Відповідь на звернення {0} {1}" />
+			<Item Name="LocalizableStrings.HideSystemMessagesString.Value" Value="Приховати системні повідомлення" />
+			<Item Name="LocalizableStrings.MessageHistoryGroupCaption.Value" Value="Історія" />
+			<Item Name="LocalizableStrings.MultipleQueueItemsFoundError.Value" Value="Знайдено більше одного елементу черги пов'язаних з процесом. Ідентифікатор процесу: {0}" />
+			<Item Name="LocalizableStrings.ParametersTabCaption.Value" Value="Інформация по зверненню" />
+			<Item Name="LocalizableStrings.PostponeQueueItemButtonCaption.Value" Value="Повернути в чергу" />
+			<Item Name="LocalizableStrings.PostponeQueueItemError.Value" Value="Помилка повернення елемента в чергу. Повідомлення про помилку: {0}" />
+			<Item Name="LocalizableStrings.QueueItemIsEmptyError.Value" Value="Сторінка не пов'язана з елементом черги єдиного вікна. Дію відмінено." />
+			<Item Name="LocalizableStrings.QueueItemPostponeFailedMessage.Value" Value="Помилка при поверненні елемента до черги" />
+			<Item Name="LocalizableStrings.QueueItemPostponeSucceedMessage.Value" Value="Елемент успішно повернуто в чергу" />
+			<Item Name="LocalizableStrings.ResolutionTabCaption.Value" Value="Вирішення та закриття" />
+			<Item Name="LocalizableStrings.ShowSystemMessagesString.Value" Value="Показати системні повідомлення" />
+			<Item Name="LocalizableStrings.SupportLevelCaption.Value" Value="Рівень підтримки" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="nl-NL">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.AssignToMeCaption.Value" Value="Wijs aan mij toe" />
+			<Item Name="LocalizableStrings.ChangeQueueItemDateButtonCaption.Value" Value="Uitstellen tot" />
+			<Item Name="LocalizableStrings.EmailTitleCaption.Value" Value="Case respons {0} {1}" />
+			<Item Name="LocalizableStrings.HideSystemMessagesString.Value" Value="Verberg systeem meldingen" />
+			<Item Name="LocalizableStrings.MessageHistoryGroupCaption.Value" Value="Historie" />
+			<Item Name="LocalizableStrings.MultipleQueueItemsFoundError.Value" Value="Meerdere wachtrijen verbonden met het proces. Proces Id: {0}" />
+			<Item Name="LocalizableStrings.ParametersTabCaption.Value" Value="Case informatie" />
+			<Item Name="LocalizableStrings.PostponeQueueItemButtonCaption.Value" Value="Plaats opnieuw in wachtrij" />
+			<Item Name="LocalizableStrings.PostponeQueueItemError.Value" Value="Niet in staat om opnieuw wachtrij te plaatsen. Error message: {0}" />
+			<Item Name="LocalizableStrings.QueueItemIsEmptyError.Value" Value="Pagina is niet aangesloten op de agent desktop wachtrij element. Actie geannuleerd." />
+			<Item Name="LocalizableStrings.QueueItemPostponeFailedMessage.Value" Value="Niet in staat om opnieuw wachtrij te plaatsen" />
+			<Item Name="LocalizableStrings.QueueItemPostponeSucceedMessage.Value" Value="Met succes opnieuw in de wachtrij" />
+			<Item Name="LocalizableStrings.ResolutionTabCaption.Value" Value="Resolutie en feedback" />
+			<Item Name="LocalizableStrings.ShowSystemMessagesString.Value" Value="Toon systeemberichten" />
+			<Item Name="LocalizableStrings.SupportLevelCaption.Value" Value="Helpdesk" />
+		</Items>
+	</Group>
+</Resources>

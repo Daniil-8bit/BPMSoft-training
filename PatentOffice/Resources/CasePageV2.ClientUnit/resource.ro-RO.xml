@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ro-RO">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.AssignToMeCaption.Value" Value="Asigneaza catre mine" />
+			<Item Name="LocalizableStrings.ChangeQueueItemDateButtonCaption.Value" Value="Amana pana la" />
+			<Item Name="LocalizableStrings.EmailTitleCaption.Value" Value="Reactie caz {0} {1}" />
+			<Item Name="LocalizableStrings.HideSystemMessagesString.Value" Value="Ascunde mesaje sistem" />
+			<Item Name="LocalizableStrings.MessageHistoryGroupCaption.Value" Value="Istoric" />
+			<Item Name="LocalizableStrings.MultipleQueueItemsFoundError.Value" Value="Mai mult decat un element in coada conexat procesului. Id Proces: {0}" />
+			<Item Name="LocalizableStrings.ParametersTabCaption.Value" Value="Informatii caz" />
+			<Item Name="LocalizableStrings.PostponeQueueItemButtonCaption.Value" Value="Refa coada" />
+			<Item Name="LocalizableStrings.PostponeQueueItemError.Value" Value="Nu a fost posibila repunerea in coada a item-ului. Mesaj de eroare: {0}" />
+			<Item Name="LocalizableStrings.QueueItemIsEmptyError.Value" Value="Pagina nu este conectata la elementul in coada pe ecranul agentului. Actiune anulata." />
+			<Item Name="LocalizableStrings.QueueItemPostponeFailedMessage.Value" Value="Nu a fost posibila re-punerea in coada a item-ului" />
+			<Item Name="LocalizableStrings.QueueItemPostponeSucceedMessage.Value" Value="Re-punere in coada cu succes" />
+			<Item Name="LocalizableStrings.ResolutionTabCaption.Value" Value="Rezolutie si feedback" />
+			<Item Name="LocalizableStrings.ShowSystemMessagesString.Value" Value="Arata mesaje sistem" />
+			<Item Name="LocalizableStrings.SupportLevelCaption.Value" Value="Linie suport" />
+		</Items>
+	</Group>
+</Resources>

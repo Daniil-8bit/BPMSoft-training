@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="vi-VN">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.AssignToMeCaption.Value" Value="Phân công cho tôi" />
+			<Item Name="LocalizableStrings.ChangeQueueItemDateButtonCaption.Value" Value="Hoãn lại cho đến khi" />
+			<Item Name="LocalizableStrings.EmailTitleCaption.Value" Value="Phản hồi trường hợp {0} {1}" />
+			<Item Name="LocalizableStrings.HideSystemMessagesString.Value" Value="Ẩn tin nhắn hệ thống" />
+			<Item Name="LocalizableStrings.MessageHistoryGroupCaption.Value" Value="Lịch sử" />
+			<Item Name="LocalizableStrings.MultipleQueueItemsFoundError.Value" Value="Có nhiều hơn một phần tử dãy chờ được kết nối với quá trình này. Id quá trình: {0}" />
+			<Item Name="LocalizableStrings.ParametersTabCaption.Value" Value="Thông tin trường hợp" />
+			<Item Name="LocalizableStrings.PostponeQueueItemButtonCaption.Value" Value="Xếp lại dãy chờ" />
+			<Item Name="LocalizableStrings.PostponeQueueItemError.Value" Value="Không thể xếp lại dãy chờ cho mục này. Tin nhắn bị lỗi: {0}" />
+			<Item Name="LocalizableStrings.QueueItemIsEmptyError.Value" Value="Trang chưa được kết nối với phần tử dãy chờ máy trung gian. Hành động bị hủy." />
+			<Item Name="LocalizableStrings.QueueItemPostponeFailedMessage.Value" Value="Không thể xếp lại dãy chờ cho mục này" />
+			<Item Name="LocalizableStrings.QueueItemPostponeSucceedMessage.Value" Value="Xếp lại dãy chờ thành công" />
+			<Item Name="LocalizableStrings.ResolutionTabCaption.Value" Value="Giải quyết và phản hồi" />
+			<Item Name="LocalizableStrings.ShowSystemMessagesString.Value" Value="Hiện tin nhắn hệ thống" />
+			<Item Name="LocalizableStrings.SupportLevelCaption.Value" Value="Dòng hỗ trợ" />
+		</Items>
+	</Group>
+</Resources>

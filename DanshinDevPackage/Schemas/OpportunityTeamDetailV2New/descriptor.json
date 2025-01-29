@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "0be6b487-ac44-49f0-8390-d29621b71d41",
+    "Name": "OpportunityTeamDetailV2New",
+    "ModifiedOnUtc": "\/Date(1737631254000)\/",
+    "Parent": {
+      "UId": "80e6bd5e-416b-4452-a770-eb0af24ac981",
+      "Name": "OpportunityTeamDetailV2New"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема детали: \"Команда\""
+  }
+}

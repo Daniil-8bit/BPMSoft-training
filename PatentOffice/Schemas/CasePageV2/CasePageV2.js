@@ -23,13 +23,13 @@
 					"values": {
 						"layout": {
 							"column": 0,
-							"row": 1,
-							"colSpan": 11,
+							"row": 20,
+							"colSpan": 24,
 							"rowSpan": 1
 						},
-						"bindTo": "DanCaseNumberValue"
+						"bindTo": "DanCaseNumberValue",
 					},
-					"parentName": "CaseParameters_gridLayout",
+					"parentName": "ProfileContainer",
 					"propertyName": "items"
 				},
 				{
@@ -61,6 +61,10 @@
 					},
 					"parentName": "CaseParameters_gridLayout",
 					"propertyName": "items"
+				},
+				{
+					"operation": "remove",
+					"name": "CaseAccount"
 				},
 				
 			]/**SCHEMA_DIFF*/,

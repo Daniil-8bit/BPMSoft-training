@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="sv-SE">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.AssignToMeCaption.Value" Value="Tilldela till mig" />
+			<Item Name="LocalizableStrings.ChangeQueueItemDateButtonCaption.Value" Value="Senarelägg till" />
+			<Item Name="LocalizableStrings.EmailTitleCaption.Value" Value="Ärendesvar {0} {1}" />
+			<Item Name="LocalizableStrings.HideSystemMessagesString.Value" Value="Dölj systemmeddelanden" />
+			<Item Name="LocalizableStrings.MessageHistoryGroupCaption.Value" Value="Historik" />
+			<Item Name="LocalizableStrings.MultipleQueueItemsFoundError.Value" Value="Mer än ett köelement kopplat till processen. Process-ID: {0}" />
+			<Item Name="LocalizableStrings.ParametersTabCaption.Value" Value="Ärendeinformation" />
+			<Item Name="LocalizableStrings.PostponeQueueItemButtonCaption.Value" Value="Ställ i kö igen" />
+			<Item Name="LocalizableStrings.PostponeQueueItemError.Value" Value="Kan inte ställa artikel i kö igen. Felmeddelande: {0}" />
+			<Item Name="LocalizableStrings.QueueItemIsEmptyError.Value" Value="Sidan är inte kopplad till agentens skrivbordsköelement. Åtgärd avbruten." />
+			<Item Name="LocalizableStrings.QueueItemPostponeFailedMessage.Value" Value="Kan inte ställa artikel i kö igen" />
+			<Item Name="LocalizableStrings.QueueItemPostponeSucceedMessage.Value" Value="Ställdes i kö igen" />
+			<Item Name="LocalizableStrings.ResolutionTabCaption.Value" Value="Upplösning och feedback" />
+			<Item Name="LocalizableStrings.ShowSystemMessagesString.Value" Value="Visa systemmeddelanden" />
+			<Item Name="LocalizableStrings.SupportLevelCaption.Value" Value="Support" />
+		</Items>
+	</Group>
+</Resources>

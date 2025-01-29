@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "c8efae8c-9d94-40ef-9787-a7707bbb9e29",
+    "Name": "ProductUnitDetailV2",
+    "ModifiedOnUtc": "\/Date(1737631745000)\/",
+    "Parent": {
+      "UId": "85e083de-4dad-4575-83f6-f15ee4a37886",
+      "Name": "ProductUnitDetailV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема детали: \"Единицы измерения\""
+  }
+}

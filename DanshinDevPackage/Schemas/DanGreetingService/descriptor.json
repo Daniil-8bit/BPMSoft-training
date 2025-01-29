@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "050a7973-03ed-4d5f-b333-245720ef2267",
+    "Name": "DanGreetingService",
+    "ModifiedOnUtc": "\/Date(1737472340000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "DanGreetingService",
+    "DependsOn": []
+  }
+}
